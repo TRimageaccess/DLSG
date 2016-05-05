@@ -1,0 +1,689 @@
+<div class="viewport" id="kic_value">
+  <div class="intro hide"> <h1> KIC Value Calculator </h1>
+    <p class="warning">You must have Javascript enabled to use the KIC Value Calculator tool.
+    </p>
+    <p> Use the KIC Value Calculator to ...
+    </p>
+    <p class="reset">Click to Reset
+    </p>
+    <hr>
+  </div>
+  <div id="graph_header">
+    <p class="grouplabel">Five Year Cost Comparison
+    </p>
+    <p class="caption usage">
+    </p>
+    <p class="caption explanation"> This  graph shows hardware and consumables costs for the KIC fleet you configured relative to four homogeneous fleets:   all copiers, all KIC BookEdges, all KIC Clicks and all KIC Bookeye 4s.    Shown in blue is the approximate student and faculty time cost of copying and scanning on the various machines, also relative to your KIC fleet configuration.    Student time value can be adjusted with a slider below this text.    For example, high prestige schools tend to purchase bigger and faster KICs.    They see their students' time as very valuable, and the savings from a single fast KIC vs. a slower book scanning system can approach $20,000 a year.    This graph can also be adjusted for machine usage with another slider below this text.    Additional adjustments can be made in the footnotes area.
+    </p>
+  </div>
+  <hr>
+  <div class="inputs">
+    <div class="qty_owned hide">
+      <p class="label copier hide">   copier
+      </p>
+      <input class="owned copier hide"    value="0">
+      <p class="label bookedge"> bookedge
+      </p>
+      <input class="owned bookedge"  value="5">
+      <p class="label ClickMini">ClickMini
+      </p>
+      <input class="owned ClickMini" value="2">      
+      <p class="label Click">Click
+      </p>
+      <input class="owned Click" value="2">
+      <p class="label bookeye">  bookeye
+      </p>
+      <input class="owned bookeye"   value="1">
+    </div>
+    <div class="usage">
+      <p class="label">Usage Level
+      </p>
+      <div class="usage_label high">
+        <p>High
+        </p>
+      </div>
+      <div class="usage_label medium">
+        <p>Medium
+        </p>
+      </div>
+      <div class="usage_label low">
+        <p>Low
+        </p>
+      </div>
+      <div id="usage_slider">
+      </div>
+      <hr>
+    </div>
+    <div class="time usage">
+      <p class="label">Value of User's Time
+      </p>
+      <div class="usage_label high">
+        <p>High
+        </p>
+      </div>
+      <div class="usage_label medium">
+        <p>Medium
+        </p>
+      </div>
+      <div class="usage_label low">
+        <p>Low
+        </p>
+      </div>
+      <div id="time_slider">
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div id="cost_graph">
+    <div class="green-line">
+      <p class="greencost">
+      </p>
+    </div>
+    <div class="cell_wrap copier">
+      <div class="vertical max">
+        <p>$0
+        </p>
+      </div>
+      <div class="cell_comp top_fill">
+      </div>
+      <div class="cell_comp bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+    </div>
+    <div class="cell_wrap bookedge">
+      <div class="vertical max">
+        <p>$0
+        </p>
+      </div>
+      <div class="cell_comp top_fill">
+      </div>
+      <div class="cell_comp bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+    </div>
+    <div class="cell_wrap Click">
+      <div class="vertical max">
+        <p>$0
+        </p>
+      </div>
+      <div class="cell_comp top_fill">
+      </div>
+      <div class="cell_comp bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+    </div>
+    <div class="cell_wrap bookeye">
+      <div class="vertical max">
+        <p>$0
+        </p>
+      </div>
+      <div class="cell_comp top_fill">
+      </div>
+      <div class="cell_comp bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+    </div>
+    <div class="cell_wrap mix highlight">
+      <div class="vertical max">
+        <p>$0
+        </p>
+      </div>
+      <div class="cell_comp top_fill">
+      </div>
+      <div class="cell_comp bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <div class="cell_comp bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="summary">
+    <div class="copier">
+      <p class="grouplabel">All Photocopier
+      </p>
+      <p class="toplabel">Five Year Cost
+      </p>
+      <p class="label">User's Time
+      </p>
+      <div class="legend bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear labor currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Consumables
+      </p>
+      <div class="legend bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear consumable currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Equipment <sup>(2)</sup>
+      </p>
+      <div class="legend bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear equipment currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Total Cost
+      </p>
+      <input class="fiveyear total currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="sublabel">(actual capacity, pg/yr)
+      </p>
+    </div>
+    <div class="bookedge">
+      <p class="grouplabel">All KIC BookEdge
+      </p>
+      <p class="toplabel">Five Year Cost <sup>(1)</sup>
+      </p>
+      <p class="label">User's Time
+      </p>
+      <div class="legend bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear labor currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Consumables
+      </p>
+      <div class="legend bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear consumable currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Equipment <sup>(2)</sup>
+      </p>
+      <div class="legend bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear equipment currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Total Cost
+      </p>
+      <input class="fiveyear total currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="sublabel">(actual capacity, pg/yr)
+      </p>
+    </div>
+    <div class="Click">
+      <p class="grouplabel">All KIC Click&trade;
+      </p>
+      <p class="toplabel">Five Year Cost <sup>(1)</sup>
+      </p>
+      <p class="label">User's Time
+      </p>
+      <div class="legend bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear labor currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Consumables
+      </p>
+      <div class="legend bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear consumable currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Equipment <sup>(2)</sup>
+      </p>
+      <div class="legend bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear equipment currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Total Cost
+      </p>
+      <input class="fiveyear total currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="sublabel">(actual capacity, pg/yr)
+      </p>
+    </div>
+    <div class="bookeye">
+      <p class="grouplabel">All KIC Bookeye 4
+      </p>
+      <p class="toplabel">Five Year Cost <sup>(1)</sup>
+      </p>
+      <p class="label">User's Time
+      </p>
+      <div class="legend bar_labor">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear labor currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Consumables
+      </p>
+      <div class="legend bar_paper">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear consumable currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Equipment <sup>(2)</sup>
+      </p>
+      <div class="legend bar_equip">
+        <div class="bar_cover">
+        </div>
+      </div>
+      <input class="fiveyear equipment currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Total Cost
+      </p>
+      <input class="fiveyear total currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="sublabel">(actual capacity, pg/yr)
+      </p>
+    </div>
+    <div class="mix highlight">
+      <p class="grouplabel">Your Selection
+      </p>
+      <p class="toplabel">Five Year Cost
+      </p>
+      <p class="label">User's Time
+      </p>
+      <div class="legend bar_labor">
+        <div class="bar_cover highlight">
+        </div>
+      </div>
+      <input class="fiveyear labor currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Consumables
+      </p>
+      <div class="legend bar_paper">
+        <div class="bar_cover highlight">
+        </div>
+      </div>
+      <input class="fiveyear consumable currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Equipment <sup>(3)</sup>
+      </p>
+      <div class="legend bar_equip">
+        <div class="bar_cover highlight">
+        </div>
+      </div>
+      <input class="fiveyear equipment currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="label">Total Cost
+      </p>
+      <input class="fiveyear total currency" value="0" readonly="readonly" tabindex="-1">
+      <p class="sublabel hide">(actual capacity, pg/yr)
+      </p>
+    </div>
+    <hr>
+    <p class="caption"> (1) Standard configurations used for comparison include typical options.
+      <br> (2) Includes Five Year Maintenance - Please call us at 800-378-5432 for your institution's discount code.
+      <br> (3) Equipment cost for Your Selection reflects all selected options and discounts as shown above, but is upgraded to the five year service plan for comparison consistency. Your KIC Configurations above are not changed.
+    </p>
+    <hr>
+  </div>
+  <hr>
+  <div class="print_note">
+    <p>Note: To print this comparison chart, select your browser's "print background colors" option for best results.
+    </p>
+  </div>
+  <div id="footnotes">
+    <p class="headline mint">Footnotes
+    </p>
+    <p class="headline caption">Show
+    </p>
+    <p class="headline caption hide">Hide
+    </p>
+    <hr>
+    <div class="variables hide">
+      <div class="tablewrap device">
+        <table>
+          <tr>
+            <th class="col1">Device
+            </th>
+            <th class="col2">Usage
+              <br>(pages/year)
+            </th>
+            <th class="col3">Scan Rate (pg/min)
+            </th>
+            <th class="col4">Equipment Cost
+            </th>
+            <th class="col5">Paper Usage (%)
+            </th>
+          </tr>
+          <tr class="copier">
+            <td class="col1">Copier</td>
+            <td class="col2">
+              <div>
+                <input class="capacity" value="40,000">
+              </div></td>
+            <td class="col3">
+              <div>
+                <input class="scan_rate" value="4.4">
+              </div></td>
+            <td class="col4">
+              <div>
+                <input class="equipment_cost currency" value="8,000">
+                <p>*
+                </p>
+              </div></td>
+            <td class="col5">
+              <div>
+                <input class="paper_usage_rate" value="100">
+              </div></td>
+          </tr>
+          <tr class="bookedge">
+            <td class="col1">KIC BookEdge </td>
+            <td class="col2">
+              <div>
+                <input class="capacity" value="40,000">
+              </div></td>
+            <td class="col3">
+              <div>
+                <input class="scan_rate" value="6.9">
+              </div></td>
+            <td class="col4">
+              <div>
+                <input class="equipment_cost currency" value="6,839">
+                <p>*
+                </p>
+              </div></td>
+            <td class="col5">
+              <div>
+                <input class="paper_usage_rate" value="10">
+              </div></td>
+          </tr>
+         <tr class="ClickMini">
+            <td class="col1">KIC ClickMini</td>
+            <td class="col2">
+              <div>
+                <input class="capacity" value="40,000">
+              </div></td>
+            <td class="col3">
+              <div>           
+                <input class="scan_rate" value="14.7">
+              </div></td>
+            <td class="col4">
+              <div>           
+                <input class="equipment_cost currency" value="17,655">
+                <p>*
+                </p>
+              </div></td>
+            <td class="col5">
+              <div>
+                <input class="paper_usage_rate" value="10">
+              </div></td>
+          </tr>          
+          <tr class="Click">
+            <td class="col1">KIC Click&trade;</td>
+            <td class="col2">
+              <div>
+                <input class="capacity" value="40,000">
+              </div></td>
+            <td class="col3">
+              <div>
+                <input class="scan_rate" value="14.7">
+              </div></td>
+            <td class="col4">
+              <div>
+                <input class="equipment_cost currency" value="17,655">
+                <p>*
+                </p>
+              </div></td>
+            <td class="col5">
+              <div>
+                <input class="paper_usage_rate" value="10">
+              </div></td>
+          </tr>
+          <tr class="bookeye">
+            <td class="col1">KIC Bookeye 4 </td>
+            <td class="col2">
+              <div>
+                <input class="capacity" value="100,000">
+              </div></td>
+            <td class="col3">
+              <div>
+                <input class="scan_rate" value="17.5">
+              </div></td>
+            <td class="col4">
+              <div>
+                <input class="equipment_cost currency" value="37,476">
+                <p>*
+                </p>
+              </div></td>
+            <td class="col5">
+              <div>
+                <input class="paper_usage_rate" value="10">
+              </div></td>
+          </tr>
+          <tr class="summary">
+            <td colspan="5">
+              <p class="reset caption">Reset
+              </p></td>
+          </tr>
+        </table>
+        <p class="caption">* 5 years maintenance is included in all standard configuration options for comparision.
+        </p>
+      </div>
+      <div class="right-col">
+        <div class="tablewrap labor">
+          <table>
+            <tr>
+              <th class="col1">User Type
+              </th>
+              <th class="col2">Market Value ($/hr)
+              </th>
+              <th class="col3">Education Cost ($/hr)
+              </th>
+              <th class="col4">Usage
+                <br>
+                <p class="flag">100
+                </p>%
+              </th>
+              <th class="col5">Weighted Cost ($/hr)
+              </th>
+            </tr>
+            <tr class="calc student lower">
+              <td class="col1">Student, Lower Div.</td>
+              <td class="col2">
+                <div>
+                  <input class="market_value currency" name="market_value1" value="0">
+                  <input class="market_base hide" name="market_base1" value="0">
+                </div></td>
+              <td class="col3">
+                <div>
+                  <input class="edu_cost currency" name="edu_cost1" value="0">
+                  <input class="edu_base hide" name="edu_base1" value="0">
+                </div></td>
+              <td class="col4">
+                <div>
+                  <input class="usage_by_user" name="usage_by_user1" value="0">
+                </div></td>
+              <td class="col5">
+                <div>
+                  <input class="weighted_cost" name="weighted_cost1" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+            <tr class="calc student upper">
+              <td class="col1">Student, Upper Div.</td>
+              <td class="col2">
+                <div>
+                  <input class="market_value currency" name="market_value2" value="0">
+                  <input class="market_base hide" name="market_base2" value="0">
+                </div></td>
+              <td class="col3">
+                <div>
+                  <input class="edu_cost currency" name="edu_cost2" value="0">
+                  <input class="edu_base hide" name="edu_base2" value="0">
+                </div></td>
+              <td class="col4">
+                <div>
+                  <input class="usage_by_user" name="usage_by_user2" value="0">
+                </div></td>
+              <td class="col5">
+                <div>
+                  <input class="weighted_cost" name="weighted_cost2" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+            <tr class="calc student grad">
+              <td class="col1">Student, Graduate</td>
+              <td class="col2">
+                <div>
+                  <input class="market_value currency" name="market_value3" value="0">
+                  <input class="market_base hide" name="market_base3" value="0">
+                </div></td>
+              <td class="col3">
+                <div>
+                  <input class="edu_cost currency" name="edu_cost3" value="0">
+                  <input class="edu_base hide" name="edu_base3" value="0">
+                </div></td>
+              <td class="col4">
+                <div>
+                  <input class="usage_by_user" name="usage_by_user3" value="0">
+                </div></td>
+              <td class="col5">
+                <div>
+                  <input class="weighted_cost" name="weighted_cost3" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+            <tr class="calc student doc">
+              <td class="col1">Student, Doctoral</td>
+              <td class="col2">
+                <div>
+                  <input class="market_value currency" name="market_value4" value="0">
+                  <input class="market_base hide" name="market_base4" value="0">
+                </div></td>
+              <td class="col3">
+                <div>
+                  <input class="edu_cost currency" name="edu_cost4" value="0">
+                  <input class="edu_base hide" name="edu_base4" value="0">
+                </div></td>
+              <td class="col4">
+                <div>
+                  <input class="usage_by_user" name="usage_by_user4" value="0">
+                </div></td>
+              <td class="col5">
+                <div>
+                  <input class="weighted_cost" name="weighted_cost4" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+            <tr class="calc faculty">
+              <td class="col1">Faculty</td>
+              <td class="col2">
+                <div>
+                  <input class="market_value currency" name="market_value5" value="0">
+                  <input class="market_base hide" name="market_base5" value="0">
+                </div></td>
+              <td class="col3">
+                <div>
+                  <input class="edu_cost currency" name="edu_cost5" value="0">
+                  <input class="edu_base hide" name="edu_base5" value="0">
+                </div></td>
+              <td class="col4">
+                <div>
+                  <input class="usage_by_user" name="usage_by_user5" value="0">
+                </div></td>
+              <td class="col5">
+                <div>
+                  <input class="weighted_cost" name="weighted_cost5" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+            <tr class="summary">
+              <td colspan="4">
+                <p class="reset caption">Reset
+                </p>
+                <p>Approximate Average Hourly Cost of Your Users:
+                </p></td>
+              <td class="col5">
+                <div>
+                  <input class="wtavg" name="wtavg" value="0" readonly="readonly" tabindex="-1">
+                </div></td>
+            </tr>
+          </table>
+        </div>
+        <hr>
+        <div class="costs">
+          <p class="label">Cost of User's Time
+          </p>
+          <input class="cost labor currency" value="41" readonly="readonly" tabindex="-1">
+          <p class="cost unit">/hr
+          </p>
+        </div>
+        <div class="costs">
+          <p class="label">Cost of Paper
+          </p>
+          <input class="cost paper" value="0">
+          <p class="cost unit">/pg *
+          </p>
+        </div>
+        <div class="costs">
+          <p class="label">Cost of Toner
+          </p>
+          <input class="cost toner" value="0">
+          <p class="cost unit">/pg *
+          </p>
+        </div>
+        <div class="costs">
+          <p class="label">User Time Per Page (Your Selection)
+          </p>
+          <input class="cost unitcost labor" value="0" readonly="readonly" tabindex="-1">
+        </div>
+        <div class="costs">
+          <p class="label">Consumable Cost Per Page
+          </p>
+          <input class="cost unitcost consumable" value="0" readonly="readonly" tabindex="-1">
+        </div>
+        <div class="costs">
+          <p class="label">Total Pages Per Year
+          </p>
+          <input class="annual capacity" value="0" readonly="readonly" tabindex="-1">
+        </div>
+        <div class="costs">
+          <p class="label">Total User Time Per Year
+          </p>
+          <input class="annual labor" value="0" readonly="readonly" tabindex="-1">
+        </div>
+        <div class="costs">
+          <p class="label">Total Consumable Per Year
+          </p>
+          <input class="annual consumable" value="0" readonly="readonly" tabindex="-1">
+        </div>
+        <div class="costs note">
+          <p class="caption">* Estimates for the paper and toner costs of printing, referred to as "Consumables", are based on the research compiled and reported by
+            <a href="http://www.tcnj.edu/~printing/faq.html#q0" target="_blank">The College of New Jersey</a>.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <ul class="hide">
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+<div class="viewport" id="contact_vp">
+
+<div class="support-address">
+  <img src="images/DSLG and IA Logos.jpg" alt="">
+  <p class="support-address-1"> Digital Library Systems Group </p>
+  <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
+  <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
+      Fax: (561) 431-2766<br>
+      Email: <a href="mailto:orders@dlsg.net">orders@dlsg.net</a>
+  </p>
+  <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
+  <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
+  <img src="images/Collage_3_Products.jpg" alt="" width="300">   
+</div>
+
+<div class="page-title">
+ <h1> Contact Us </h1>
+</div>
+
+<div class="formset">
+<form class="contactform" id="commentForm" action="script/formmail.asp" method="post" >
+			 <input name="_recipients"  type="hidden" value="contactus@dlsg.net">
+			 <input name="_subject"     type="hidden" value="Message from the contact.html web-form">
+			 <input name="_redirectUrl" type="hidden" value="/thankyou.html">
+  
+<% Session("MyBotCheckID234") = Now() %>
+
+ <div class="fieldset"><fieldset>
+  <legend> &emsp; About You &emsp; </legend>
+  <p>
+   <label for="fname">First Name</label>
+   <em>*</em><input id="fname" name="fname" size="25" class="required" minlength="2" />
+  </p>
+  <p>
+   <label for="lname">Last Name</label>
+   <em>*</em><input id="lname" name="lname" size="25" class="required" minlength="2" />
+  </p>
+  <p>
+   <label for="title">Title</label>
+   <em> &emsp; </em><input id="title" name="title" size="25" />
+  </p>
+  <p>
+   <label for="email">E-Mail</label>
+   <em>*</em><input id="email" name="email" size="25"  class="required email" />
+  </p>
+ </fieldset></div>
+ <div class="fieldset"><fieldset>
+  <legend> &emsp; About Your Company &emsp; </legend>
+  <p>
+   <label for="company">Company</label>
+   <em> &emsp; </em><input id="company" name="company" size="25" />
+  </p>
+  <p>
+   <label for="telephone">Telephone #</label>
+   <em>*</em><input id="telephone" name="telephone" size="25" class="required phoneUS" />
+  </p>
+  <p>
+   <label for="fax">Fax #</label>
+   <em> &emsp; </em><input id="fax" name="fax" size="25" />
+  </p>
+  <p>
+   <label for="address">Address</label>
+   <em> &emsp; </em><input id="address" name="address" size="25" />
+  </p>
+  <p>
+   <label for="city">City</label>
+   <em> &emsp; </em><input id="city" name="city" size="25" />
+  </p>
+  <p>
+   <label for="state">State</label>
+   <em> &emsp; </em><input id="state" name="state" size="25" />
+  </p>
+  <p>
+   <label for="zip">ZIP</label>
+   <em> &emsp; </em><input id="zip" name="zip" size="25" />
+  </p>
+  <p>
+   <label for="url">Website</label>
+   <em> &emsp; </em><input id="url" name="url" size="25"  class="url" value="" />
+  </p>
+  <p>
+   <label for="comment">Comments<br><span class="slanty">(3000 char. limit)</span></label>
+   <em> &emsp; </em><textarea id="comment" name="comment" maxlength="3000"></textarea>
+  </p>
+  <p>
+   <input class="submit" type="submit" value="Submit"/>
+  </p>
+ </fieldset></div>
+</form></div>
+<hr>
+</div>
+

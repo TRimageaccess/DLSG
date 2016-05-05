@@ -1,0 +1,76 @@
+<div class="brochure-block" id="BE4-08">
+<h1 class="block-tag">BE4-08</h1>
+<h1 class="block-title">Scan2Net Image Capture Process</h1>
+<div id="usb">
+ <p>
+ A traditional scanner relies heavily on the scanner driver which runs inside the PC. 
+ The A/D converters may have produced up to 48bits of data but the data is truncated to 24bits before it tranverses via the USB or Firewire connection into the PC. 
+ After some necessary corrections are performed, including gamma correction, only 18bits of data remains although this is invisible at first glance because it still is coded into the 24bit world.
+ </p>
+ <div>
+  <h3 class="lefttag oranget">Traditional Scanner</h3>
+  <h3 class="righttag greent">Host PC</h3>
+ </div>
+ <div id="scan_panel">
+  <div class="chunk orange"><p class="mid">CCD</p></div>
+  <div class="rt_arrow"></div>
+  <div class="chunk orange"><p class="mid">A/D</p></div>
+  <div class="rt_arrow"><p>36b</p></div>
+  <div class="chunk orange"><p class="mid">Memory</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk orange"><p>Gain<br>Offset<br>Gamma</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk or-fade"><p class="mid">USB</p></div>
+  <div class="rt_arrow"><p>18b</p></div>
+  <div class="chunk green"><p class="mid">JPEG</p></div>
+  <div class="rt_arrow"><p>18b</p></div>
+  <div class="chunk green"><p class="mid">File</p></div>
+ </div>
+ <div id="process_panel">
+  <div class="process"><p>The CCD element converts photons to voltages</p></div>
+  <div class="process"><p>Coverts analog voltages to digital signals</p></div>
+  <div class="process"><p>Scan line memory used as a buffer</p></div>
+  <div class="process"><p>Scanner connects to host PC via USB port or SCSI</p></div>
+  <div class="process"><p>PC driver corrects gain, offset gamma and illumination</p></div>
+  <div class="process"><p>JPEG compression with adjustable quality level</p></div>
+  <div class="process"><p>Final output a file written to an arbitrary storage media</p></div>
+ </div>
+ <hr>
+</div>
+<div id="s2n">
+ <p>
+ In a Scan2Net scanner, all corrections as well as gamma are performed inside the scanner at the full resolution of the camera subsystem, typically 36 bits. 
+ Only the clean, compressed file is sent to the PC via the network, not only reducing traffic but preserving much more resolution.
+ </p>
+ <div>
+  <h3 class="lefttag bluet">Scan2Net Scanner</h3>
+  <h3 class="righttag greent">Host PC</h3>
+ </div>
+ <div id="scan_panel">
+  <div class="chunk blue"><p class="mid">CCD</p></div>
+  <div class="rt_arrow"></div>
+  <div class="chunk blue"><p class="mid">A/D</p></div>
+  <div class="rt_arrow"><p>36b</p></div>
+  <div class="chunk blue"><p>Gain<br>Offset<br>Gamma</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk blue"><p class="mid">Memory</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk blue"><p class="mid">JPEG</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk bl-fade"><p>TCP/IP<br>HTML<br>FTP</p></div>
+  <div class="rt_arrow"><p>24b</p></div>
+  <div class="chunk green"><p class="mid">File</p></div>
+ </div>
+ <div id="process_panel">
+  <div class="process"><p>The CCD element converts photons to voltages</p></div>
+  <div class="process"><p>Coverts analog voltages to digital signals</p></div>
+  <div class="process"><p>Gain, Offset, Gamma and illumination correction in hardware</p></div>
+  <div class="process"><p>Memory holds one full scan to guarantee real time processing</p></div>
+  <div class="process"><p>JPEG engine specifically tailored to the properties of the CCD</p></div>
+  <div class="process"><p>Standard IP protocols over standard 100Mb/1Gb network</p></div>
+  <div class="process"><p>Final output a file stored on any drive, FTP site or printer</p></div>
+ </div>
+ <hr>
+</div>
+</div>
+
