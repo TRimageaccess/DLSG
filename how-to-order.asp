@@ -35,159 +35,189 @@
   <body>
   <div class="container">
   
-  <nav>
+    <nav>
 
-  <div class="list-nav-wrap">
-    <div class="list-nav-offset">
-      <div class="list-nav">
-        <ul>
-          <li>
-          <a href="main.html">DLSG Home</a>
-          </li>
-          <li>
-          <a href="kic.html">KIC</a>
-          <ul>
-            <li>
-            <a href="kic.html">KIC Family </a>
-            </li>
-            <li>
-            <a href="build-your-kic.html">Build Your KIC</a>
-            </li>
-<!--            <li>   -->
-<!--            <a href="kic-click-mini.html">KIC Click Mini</a>  -->
-<!--            </li>    -->           
-<!--            <li> -->
-<!--            <a href="kic-click.html">KIC Click&trade;</a> -->
-<!--            </li> -->
+        <div class="list-nav-wrap">
+            <div class="list-nav-offset">
+                <div class="list-nav">
+                    <ul>
+                        <li>
+                            <a href="main.html">DLSG Home</a>
+                        </li>
+                        <li>
+                            <a href="kic.html">KIC</a>
+                            <ul>
+                                <li>
+                                    <a href="kic.html">KIC Family </a>
+                                </li>
+                                <li>
+                                    <a href="build-your-kic.html">Build Your KIC</a>
+                                </li>
+                                <!--            <li>   -->
+                                <!--            <a href="kic-click-mini.html">KIC Click Mini</a>  -->
+                                <!--            </li>    -->
+                                <!--            <li> -->
+                                <!--            <a href="kic-click.html">KIC Click&trade;</a> -->
+                                <!--            </li> -->
 
-            <li>
-            <a href="kic-click_click-mini.html">KIC Click & Click Mini</a>
-            </li>              
-            <li>
-            <a href="kic-bookeye4.html">KIC Bookeye 4 V3, V2 & V1</a>
-            </li>
-<!--            <li>   -->
-<!--            <a href="kic-bookeye4v2.html">KIC Bookeye 4 V2</a>  -->
-<!--            </li>  -->
-<!--            <li>  -->
-<!--            <a href="kic-bookeye4v1.html">KIC Bookeye 4 V1A</a>   -->
-<!--            </li>                         -->
-            <li>
-            <a href="kic-bookeye3r2.html">KIC Bookeye 3 R2</a>
-            </li>
-            <li>
-            <a href="kic-widetek25.html">KIC WideTEK 25</a>
-            </li>
-            <li>
-            <a href="kic-bookedge.html">KIC BookEdge</a>
-            </li>            
-            <li>
-            <a href="kic.html#KIC_Fleet">KIC Fleet Management</a>
-            </li>
-          </ul>
-          </li>
-          <li>
-          <a href="bscan.html">BSCAN ILL</a>
-          <ul>
-            <li>
-            <a href="bscan.html">BSCAN ILL Family </a>
-            </li>
-            <li>
-            <a href="build-your-bscan-ill.html">Build Your BSCAN ILL</a>
-            </li>            
-            <li>
-            <a href="bscan-bookedge.html">BSCAN ILL BookEdge</a>
-            </li>
-            <li>
-            <a href="bscan-bookeye4v3.html">BSCAN ILL Bookeye 4 V3</a>
-            </li>
-            <li>
-            <a href="bscan-bookeye4v2.html">BSCAN ILL Bookeye 4 V2</a>
-            </li> 
-            <li>
-            <a href="bscan-bookeye4v1.html">BSCAN ILL Bookeye 4 V1A</a>
-            </li>                       
-            <li>
-            <a href="bscan-bookeye3r2.html">BSCAN ILL Bookeye 3 R2</a>
-            </li>            
-            <li>
-            <a href="bscan-widetek25.html">BSCAN ILL WideTEK 25</a>
-            </li>
-          </ul>
-          </li>
-          <li>
-          <a href="opus-freeflow.html"> OPUS </a>
-          <ul>
-<!--            <li>
-            <a href="build-your-opus.html">Build Your Opus</a>
-            </li> -->           
-            <li>
-            <a href="opus-freeflow.html">Opus FreeFlow </a>
-            </li>
-            <li>
-            <a href="opus-workflow.html">Opus WorkFlow </a>
-            </li>
-          </ul>
-          </li>
-          <li>
-          <a href="scanners.html">Scanners</a>
-          <ul>
-            <li>
-            <a href="scanners.html">Scanner Family </a>
-            </li>
-            <li>
-            <a href="bookedge.html">BookEdge</a>
-            </li>
-            <li>
-            <a href="click-mini.html">Click Mini</a>
-            </li>            
-            <li>
-            <a href="click.html">Click&trade;</a>
-            </li>
-            <li>
-            <a href="bookeye4v3.html">Bookeye 4 V3</a>
-            </li>
-            <li>
-            <a href="bookeye4v2.html">Bookeye 4 V2</a>
-            </li>
-            <li>
-            <a href="bookeye4v1.html">Bookeye 4 V1A</a>
-            </li>                        
-            <li>
-            <a href="bookeye3r2.html">Bookeye 3 R2</a>
-            </li>
-            <li>
-            <a href="widetek25.html">WideTEK 25</a>
-            </li>
-            <li>
-            <a href="widetek36ds.html">WideTEK 36DS</a>
-            </li>
-            <li>
-            <a href="widetek36.html">WideTEK 36</a>
-            </li>
-            <li>
-            <a href="widetek42.html">WideTEK 42</a>
-            </li>
-            <li>
-            <a href="widetek48.html">WideTEK 48</a>
-            </li>
-          </ul>
-          </li>
-          <li>
-          <a href="events.html">News &amp; Events</a>
-          </li>
-          <li>
-          <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-          <a id="tagflip" href="#" style="font-weight:bold;">1-800-378-5432</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  
-  </nav><div class="viewport" id="hto_vp">
+                                <li>
+                                    <a href="kic-click_click-mini.html">KIC Click & Click Mini</a>
+                                </li>
+                                <li>
+                                    <a href="kic-bookeye4.html">KIC Bookeye 4 V3, V2 & V1</a>
+                                </li>
+                                <!--            <li>   -->
+                                <!--            <a href="kic-bookeye4v2.html">KIC Bookeye 4 V2</a>  -->
+                                <!--            </li>  -->
+                                <!--            <li>  -->
+                                <!--            <a href="kic-bookeye4v1.html">KIC Bookeye 4 V1A</a>   -->
+                                <!--            </li>                         -->
+                                <li>
+                                    <a href="kic-bookeye3r2.html">KIC Bookeye 3 R2</a>
+                                </li>
+                                <li>
+                                    <a href="kic-widetek25.html">KIC WideTEK 25</a>
+                                </li>
+                                <li>
+                                    <a href="kic-bookedge.html">KIC BookEdge</a>
+                                </li>
+                                <li>
+                                    <a href="kic.html#KIC_Fleet">KIC Fleet Management</a>
+                                </li>
+                                <li>
+                                    <a href="kic-kat.html">KAT Knowledge Access Tool</a>
+                                </li>
+                                <li>
+                                    <a href="kic-reservation-app.html">KIC Reservation App (a KAT Feature)</a>
+                                </li>
+                                <li>
+                                    <a href="self-serve-book-printing.html">Self-Serve Book Printing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="bscan.html">BSCAN ILL</a>
+                            <ul>
+                                <li>
+                                    <a href="bscan.html">BSCAN ILL Family </a>
+                                </li>
+                                <li>
+                                    <a href="build-your-bscan-ill.html">Build Your BSCAN ILL</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookedge.html">BSCAN ILL BookEdge</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v3.html">BSCAN ILL Bookeye 4 V3</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v2.html">BSCAN ILL Bookeye 4 V2</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v1.html">BSCAN ILL Bookeye 4 V1A</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye3r2.html">BSCAN ILL Bookeye 3 R2</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-widetek25.html">BSCAN ILL WideTEK 25</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="opus-freeflow.html"> OPUS </a>
+                            <ul>
+                                <!--            <li>
+                                            <a href="build-your-opus.html">Build Your Opus</a>
+                                            </li> -->
+                                <li>
+                                    <a href="opus-freeflow.html">Opus FreeFlow </a>
+                                </li>
+                                <li>
+                                    <a href="opus-workflow.html">Opus WorkFlow </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="scanners.html">Scanners</a>
+                            <ul>
+                                <li>
+                                    <a href="scanners.html">Scanner Family </a>
+                                </li>
+                                <li>
+                                    <a href="bookedge.html">BookEdge</a>
+                                </li>
+                                <li>
+                                    <a href="click-mini.html">Click Mini</a>
+                                </li>
+                                <li>
+                                    <a href="click.html">Click&trade;</a>
+                                </li>
+                                <li>
+                                    <a href="bookeye4v3.html">Bookeye 4 V3</a>
+                                </li>
+                                <li>
+                                    <a href="bookeye4v2.html">Bookeye 4 V2</a>
+                                </li>
+                                <li>
+                                    <a href="bookeye4v1.html">Bookeye 4 V1A</a>
+                                </li>
+                                <li>
+                                    <a href="bookeye3r2.html">Bookeye 3 R2</a>
+                                </li>
+                                <li>
+                                    <a href="widetek25.html">WideTEK 25</a>
+                                </li>
+                                <li>
+                                    <a href="widetek36ds.html">WideTEK 36DS</a>
+                                </li>
+                                <li>
+                                    <a href="widetek36.html">WideTEK 36</a>
+                                </li>
+                                <li>
+                                    <a href="widetek42.html">WideTEK 42</a>
+                                </li>
+                                <li>
+                                    <a href="widetek48.html">WideTEK 48</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Service & Support</a>
+                            <ul>
+                                <li><a href="check-order-status.html">Check Order Status</a></li>
+                                <li><a href="open-check-a-service-ticket.html">Open/Check a Service Ticket</a></li>
+                                <li><a href="contact-service-department.html">Contact Service Department</a></li>
+                                <li><a href="maintenance-argeements.html">Maintenance Agreements</a></li>
+                                <li><a href="the-service-and-support-team.html">The Service & Support Team</a></li>
+                                <li><a href="the-digitization-advisory-team.html">The Digitization Advisory Team</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="events.html">News &amp; Events</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                            <ul>
+                                <li>
+                                    <a href="gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="customers.html">Customers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="tagflip" href="#" style="font-weight:bold;">1-800-378-5432</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+  <div class="viewport" id="hto_vp">
 
  <div class="support-address">
   <img src="images/DSLG and IA Logos.jpg" alt="">
