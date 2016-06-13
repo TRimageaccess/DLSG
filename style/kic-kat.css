@@ -53,13 +53,18 @@
 
 .infoblock .image-title {
     position: relative;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: AvenirLTStdBlack;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .infoblock .image-text {
     margin-left: 4%;
     font-family: AvenirLTStdBookOblique; /* font-style: italic; */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 .infoblock .image-title--stacks-view {
@@ -74,10 +79,11 @@
 
 .infoblock .image-bottom-header {
     font-weight: normal;
-    margin-left: 15%;
-    margin-top: -122px;
+    margin-left: 11%;
+    margin-top: -145px;
     padding-bottom: 12px;
-    width: 50%;
+    width: 60%;
+    text-align: center;
 }
 
 .infoblock .row--kat__right-middle-block {
@@ -87,10 +93,13 @@
 .infoblock .right-middle-block__text {
     width: 40%;
     text-align: right;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: AvenirLTStdBookOblique;
+    font-style: italic;
     position: relative;
     margin-top: 45px;
     left: -4%;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .infoblock .right-middle-block__image {
@@ -129,8 +138,6 @@
 
 .infoblock .note--left__top {
     position: relative;
-    left: 1%;
-    top: 50px;
     width: 38%;
 }
 
@@ -383,14 +390,14 @@
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     position: relative;
     left: 63%;
-    margin-top: -320px;
+    margin-top: -360px;
     padding-bottom: 325px;
 }
 
 .infoblock .image-text--SW {
     width: 26%;
     position: relative;
-    left: 0;
+    left: 20px;
     margin-left: 0;
     margin-top: -225px;
     padding-bottom: 15px;
@@ -398,11 +405,13 @@
 }
 
 .infoblock .bvs-section__image-title {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: AvenirLTStdBlack;
+    font-weight: bold;
     position: relative;
     left: 45%;
-    margin-top: -255px;
+    margin-top: -285px;
     padding-bottom: 200px;
+    font-size: 1.3rem;
 }
 
 .infoblock .bvs-section__image-text {

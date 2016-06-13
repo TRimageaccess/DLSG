@@ -226,7 +226,7 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 .pane_text_overlay.quote.slide_tag3 p {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:23pt;line-height:105%;}
 .pane_text_overlay.quote.slide_tag4 p {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:23pt;line-height:105%;}
 .pane_text_overlay.quote.slide_tag5 p {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:18pt;line-height:105%;}
-.pane_text_overlay.quote.slide_tag6 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:44pt;}
+.pane_text_overlay.quote.slide_tag6 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:34pt;}
 .pane_text_overlay.quote.slide_tag7 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:21pt;line-height:95%;}
 .pane_text_overlay.quote.slide_tag8 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:22pt;line-height:95%;}
 .pane_text_overlay.quote.slide_tag9 h1 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:95pt;line-height:95%;}
@@ -349,7 +349,7 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 #quote-078{top: 224px;left: 558px;width:155px;}
 #quote-079{top: 200px;left: 823px;width:230px;}
 #quote-080{top: 224px;left: 823px;width:230px;}
-#quote-081{top: 130px;left: 518px;width:540px;}
+#quote-081{top: 100px;left: 468px;}
 #quote-082{top: 229px;left: 94px;width:290px;}
 #quote-083{top: 571px;left: 52px;width:540px;}
 #quote-084{top: 163px;left: 118px;width:290px;color:white;}
@@ -480,3 +480,5 @@ overflow:auto;background:#fff;border:1px solid #888;border-radius:4px;z-index:50
 span.mildHL {text-decoration:underline;font-style:italic;}
 #newsTicker {position: relative; height:30px; margin:0 auto; width:950px; overflow:hidden; }
 #newsTicker div.scrollableArea p {display:block; float: left; margin: 0; padding: 0; font-size:14pt; font-style:italic; color:#0000ff; white-space: nowrap;}
+.pane_text_overlay2 .six-slide {font-size: 18px;}
+.pane_text_overlay2 .click-two-slide {font-size: 18px;}
