@@ -345,11 +345,11 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 #quote-074{top:430px;left:510px;width:250px;}
 #quote-075{top:430px;left:852px;width:200px;}
 #quote-076{top: 9px;left: 20px;}
-#quote-077{top: 200px;left: 558px;width:200px;}
-#quote-078{top: 224px;left: 558px;width:155px;}
-#quote-079{top: 200px;left: 823px;width:230px;}
-#quote-080{top: 224px;left: 823px;width:230px;}
-#quote-081{top: 100px;left: 468px;}
+#quote-077{top: 230px;left: 558px;width:200px;}
+#quote-078{top: 254px;left: 558px;width:155px;}
+#quote-079{top: 230px;left: 823px;width:230px;}
+#quote-080{top: 254px;left: 823px;width:230px;}
+#quote-081{top: 140px;left: 468px;}
 #quote-082{top: 229px;left: 94px;width:290px;}
 #quote-083{top: 571px;left: 52px;width:540px;}
 #quote-084{top: 163px;left: 118px;width:290px;color:white;}
@@ -482,3 +482,4 @@ span.mildHL {text-decoration:underline;font-style:italic;}
 #newsTicker div.scrollableArea p {display:block; float: left; margin: 0; padding: 0; font-size:14pt; font-style:italic; color:#0000ff; white-space: nowrap;}
 .pane_text_overlay2 .six-slide {font-size: 18px;}
 .pane_text_overlay2 .click-two-slide {font-size: 18px;}
+.g5-slide img {padding-top: 30px;}
