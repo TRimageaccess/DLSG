@@ -176,8 +176,8 @@
 }
 
 .block__ul li:first-child {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 14px;
+    line-height: 16px;
     margin-left: 0;
     font-weight: bold;
 }
