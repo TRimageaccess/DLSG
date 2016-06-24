@@ -139,6 +139,9 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="dlos.html"> DLOS </a>
+                        </li>
+                        <li>
                             <a href="scanners.html">Scanners</a>
                             <ul>
                                 <li>

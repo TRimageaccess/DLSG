@@ -80,7 +80,7 @@
     color: #000;
     text-decoration: none;
     width: auto;
-    padding: .15em 1.1em .15em 1.1em;
+    padding: .15em 0.8em .15em 0.9em;
     z-index: 53;
 }
 
@@ -103,13 +103,13 @@
     color: #111;
     background-color: #bcb;
     background-color: rgba(204, 221, 204, 0.7);
-    width: 14em;
+    width: 18em;
 }
 
 .list-nav li:hover li a:hover, .list-nav li:hover li:hover a {
     color: #eee;
     background-color: #aca;
-    width: 14.5em;
+    width: 18.5em;
 }
 
 /* third level*/

@@ -9,7 +9,7 @@ h1.block-tag{visibility:hidden;position:absolute;top:-15px;left:10px;width:auto;
 .brochure-block img{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
 .brochure-block .two-col{width:1200px;}
 .brochure-block .two-col .left-col{width:500px;float:left;margin-left:75px;}
-.brochure-block .two-col .left-col2{width:555px;float:left;margin-left:loca35px;}
+.brochure-block .two-col .left-col2{width:555px;float:left;margin-left:35px;}
 .brochure-block .two-col .right-col{width:500px;float:right;margin-right:75px;}
 .brochure-block .two-col .right-col2{width:548px;float:right;margin-right:40px;}
 .brochure-block .two-col div div{width:99%;float:left;}
@@ -276,7 +276,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #ILL-0601 {position:absolute;top:31px;left:0px;width:1200px;}
 #ILL-06 h3.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:italic;font-size:25px;color:black;;line-height:110%;}
 #ILL-0602 {position:absolute;top: 69px;left: 0px; width: 1200px;}
-#ILL-06 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:32px;color:black;line-height:100%;}
+#ILL-06 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:31px;color:black;line-height:100%;}
 #ILL-0603 {position:absolute;top: 208px;left: 145px; width: 160px;}
 #ILL-0604 {position:absolute;top: 477px;left: 155px; width: 100px;}
 #ILL-0605 {position:absolute;top: 731px;left: 124px; width: 160px;}
@@ -299,7 +299,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #ILL-0702 {position:absolute;top: 62px;left: 0px; width: 1200px;}
 #ILL-07 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:normal;font-size:19px;line-height:110%;}
 #ILL-0703 {position:absolute;top: 112px;left: 48px; width: 505px;}
-#ILL-07 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:italic;font-size:20px;line-height:110%;}
+#ILL-07 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:110%;}
 #ILL-0704 {position:absolute;top: 112px;left: 560px; width: 468px;}
 #ILL-07 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:18px;line-height:110%;}
 #ILL-0705 {position:absolute;top: 690px;left: 116px; width: 608px;}
@@ -529,7 +529,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #BE-0408 {position:absolute;top: 770px;left: 390px; width: 170px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:15px;line-height:115%;font-weight:bold;}
 #BE-0409 {position:absolute;top: 91px;left: 671px; width: 400px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
 #BE-0410 {position:absolute;top: 148px;left: 590px; width: 555px;}
-#BE-0411 {position:absolute;top: 726px;left: 590px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-0411 {position:absolute;top: 726px;left: 590px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
 #BE-0412 {position:absolute;top: 779px;left: 595px; width: 515px;}
 #BE-0413 {position:absolute;top: 872px;left: 46px; width: 510px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
 #BE-04 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:19px;line-height:115%;}
