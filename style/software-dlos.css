@@ -111,7 +111,7 @@
 
 .little-font{
     font-size: 12px;
-    line-height: 14px;
+    line-height: 20px;
 }
 
 .saw {
@@ -206,7 +206,6 @@
 .inform__images-second {
     margin-left: -105px;
     padding-bottom: 5px;
-    margin-top: 20px;
     z-index: 1;
     position: relative;
 }
