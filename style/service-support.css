@@ -92,7 +92,6 @@ button {
 }
 
 .infoblock__double-check-order-status {
-    /*width: 100%;*/
     overflow: hidden;
 }
 
@@ -144,7 +143,7 @@ button {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    /*transition: opacity 500ms;*/
     visibility: hidden;
     opacity: 0;
     z-index: 3;
@@ -162,7 +161,7 @@ button {
     border-radius: 5px;
     width: 30%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /*transition: all 5s ease-in-out;*/
 }
 
 .popup h2 {
@@ -174,7 +173,7 @@ button {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+    /*transition: all 200ms;*/
     font-size: 3rem;
     font-weight: bold;
     text-decoration: none;
