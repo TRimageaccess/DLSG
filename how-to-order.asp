@@ -5,7 +5,7 @@
     <meta http-equiv="Expires" content="-1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=1280" />
+   <meta name="viewport" content="width=device-width">
     <title>Digital Library Systems Group
     </title>
     <link href="style/style.css" rel="stylesheet" type="text/css" />
