@@ -1,6 +1,6 @@
 .brochure-block-wrap {
     width: 1200px;
-    margin: 0px;
+    margin: 0;
     box-shadow: 2px 3px 5px 5px #ddd;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -10,9 +10,9 @@ div.brochure-block {
     clear: both;
     width: 1200px;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     min-height: 10em;
-    border-radius: 0px;
+    border-radius: 0;
     position: relative;
 }
 
@@ -176,7 +176,7 @@ h1.block-tag {
     font-size: 200%;
     font-style: italic;
     color: #555;
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 div.rt_arrow {
@@ -194,7 +194,7 @@ div.dn_arrow {
 }
 
 #K-00 img {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #KBE-01 {
@@ -261,7 +261,7 @@ div.dn_arrow {
 
 #KBE-03 .left-col {
     width: 750px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #KBE-03 .left-col ul {
@@ -275,11 +275,11 @@ div.dn_arrow {
 
 #KBE-03 .right-col {
     width: 300px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #KBE-03 .right-col img {
-    margin: 0px;
+    margin: 0;
     float: none;
 }
 
@@ -461,7 +461,7 @@ div.dn_arrow {
     height: 200px;
     width: 200px;
     float: left;
-    margin: 0px;
+    margin: 0;
 }
 
 #K-0501 {
@@ -483,7 +483,7 @@ div.dn_arrow {
 }
 
 #K-06 {
-    margin: 0px;
+    margin: 0;
     width: 1050px;
 }
 
@@ -493,7 +493,7 @@ div.dn_arrow {
 
 #K-06 .left-col, #K-06 .right-col {
     width: 500px;
-    margin: 0px;
+    margin: 0;
 }
 
 #K-06 img {
@@ -508,8 +508,8 @@ div.dn_arrow {
 #K-06 .dn_arrow {
     width: 190px;
     height: 30px;
-    margin-left: 0px;
-    background-position: 90px 0px;
+    margin-left: 0;
+    background-position: 90px 0;
 }
 
 #K-06-pages {
@@ -757,13 +757,13 @@ div.dn_arrow {
 
 #K-18 {
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-19 {
     height: auto;
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-19 h2.headline {
@@ -796,7 +796,7 @@ div.dn_arrow {
 
 #K-21 {
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-22 {
@@ -1177,7 +1177,7 @@ div.dn_arrow {
 #ILL-0222 {
     position: absolute;
     top: 901px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1290,14 +1290,14 @@ div.dn_arrow {
 #ILL-0301 {
     position: absolute;
     top: 33px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-0302 {
     position: absolute;
     top: 61px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 24px;
@@ -1319,7 +1319,7 @@ div.dn_arrow {
 #ILL-0303 {
     position: absolute;
     top: 917px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1496,7 +1496,7 @@ div.dn_arrow {
 #ILL-0401 {
     position: absolute;
     top: 35px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1512,7 +1512,7 @@ div.dn_arrow {
 #ILL-0402 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1689,7 +1689,7 @@ div.dn_arrow {
 #ILL-0601 {
     position: absolute;
     top: 31px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1706,7 +1706,7 @@ div.dn_arrow {
 #ILL-0602 {
     position: absolute;
     top: 69px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1856,7 +1856,7 @@ div.dn_arrow {
 #ILL-0701 {
     position: absolute;
     top: 32px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1873,7 +1873,7 @@ div.dn_arrow {
 #ILL-0702 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1941,7 +1941,7 @@ div.dn_arrow {
 #ILL-0707 {
     position: absolute;
     top: 797px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -1958,7 +1958,7 @@ div.dn_arrow {
 #ILL-0708 {
     position: absolute;
     top: 822px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -2034,7 +2034,7 @@ div.dn_arrow {
 #ILL-0714 {
     position: absolute;
     top: 1170px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -2051,7 +2051,7 @@ div.dn_arrow {
 #ILL-0715 {
     position: absolute;
     top: 1200px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -2431,7 +2431,6 @@ div.dn_arrow {
     font-weight: bold;
     font-size: 11px;
     text-align: center;
-    font-weight: bold;
     line-height: 0.9em;
 }
 
@@ -2679,7 +2678,6 @@ div.dn_arrow {
     left: 14px;
     width: 615px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 14px;
     font-weight: bold;
     line-height: 130%;
 }
@@ -2690,7 +2688,6 @@ div.dn_arrow {
     left: 586px;
     width: 600px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 14px;
     font-weight: bold;
     line-height: 130%;
 }
@@ -2995,12 +2992,12 @@ div.dn_arrow {
 
 #FF-03 .left-col {
     width: 500px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #FF-03 .right-col {
     width: 500px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #ff-t0303 .t_col1 {
@@ -3147,7 +3144,7 @@ div.dn_arrow {
 #BE-0111 {
     position: absolute;
     top: 1085px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 38px;
@@ -3239,7 +3236,7 @@ div.dn_arrow {
 #BE-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 33px;
@@ -3355,7 +3352,7 @@ div.dn_arrow {
 #BE-0301 {
     position: absolute;
     top: 37px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -3366,7 +3363,7 @@ div.dn_arrow {
 #BE-0302 {
     position: absolute;
     top: 72px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-style: italic;
@@ -3453,7 +3450,7 @@ div.dn_arrow {
 #BE-0401 {
     position: absolute;
     top: 30px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -4350,7 +4347,7 @@ div.dn_arrow {
 #BE-0901 {
     position: absolute;
     top: 32px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -4361,7 +4358,7 @@ div.dn_arrow {
 #BE-0902 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-style: italic;
@@ -4393,7 +4390,7 @@ div.dn_arrow {
 #BE-0906 {
     position: absolute;
     top: 636px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 36px;
@@ -4528,7 +4525,7 @@ div.dn_arrow {
 #BE-1101 {
     position: absolute;
     top: 36px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 40px;
@@ -4539,7 +4536,6 @@ div.dn_arrow {
 #BE-11 p.block_text1 {
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
-    font-size: 14px;
     line-height: 115%;
     font-weight: bold;
 }
@@ -4561,7 +4557,7 @@ div.dn_arrow {
 #BE-1103 {
     position: absolute;
     top: 1057px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 28px;
@@ -4572,7 +4568,7 @@ div.dn_arrow {
 #BE-1104 {
     position: absolute;
     top: 1094px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -4591,7 +4587,7 @@ div.dn_arrow {
 #BE-1201 {
     position: absolute;
     top: 32px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 40px;
@@ -4680,7 +4676,7 @@ div.dn_arrow {
     vertical-align: baseline;
     position: relative;
     top: -7px;
-    left: 0px;
+    left: 0;
     font-weight: bold;
 }
 
@@ -4705,7 +4701,7 @@ div.dn_arrow {
 #CCM-0103 {
     position: absolute;
     top: 1136px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 46px;
@@ -4791,7 +4787,7 @@ div.dn_arrow {
 #CCM-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 33px;
@@ -4914,7 +4910,7 @@ div.dn_arrow {
 #CCM-0301 {
     position: absolute;
     top: 37px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -4925,7 +4921,7 @@ div.dn_arrow {
 #CCM-0302 {
     position: absolute;
     top: 72px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-style: italic;
@@ -5226,7 +5222,7 @@ div.dn_arrow {
 #CCM-0501 {
     position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -5447,7 +5443,7 @@ div.dn_arrow {
 #CCM-0612 {
     position: absolute;
     top: 776px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -5693,7 +5689,7 @@ div.dn_arrow {
 #CCM-0801 {
     position: absolute;
     top: 38px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -5970,7 +5966,7 @@ div.dn_arrow {
 #CCM-0901 {
     position: absolute;
     top: 35px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 40px;
@@ -6363,7 +6359,7 @@ div.dn_arrow {
 #CCM-1101 {
     position: absolute;
     top: 36px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -6420,7 +6416,7 @@ div.dn_arrow {
     position: absolute;
     top: 612px;
     left: 238px;
-    width: 100px;
+    width: 105px;
 }
 
 #CCM-1106 {
@@ -6448,7 +6444,7 @@ div.dn_arrow {
     position: absolute;
     top: 639px;
     left: 239px;
-    width: 325px;
+    width: 334px;
 }
 
 #CCM-1110 {
@@ -6565,7 +6561,7 @@ div.dn_arrow {
     position: absolute;
     top: 778px;
     left: 70px;
-    width: 145px;
+    width: 150px;
 }
 
 #CCM-1125 {
@@ -6579,7 +6575,7 @@ div.dn_arrow {
     position: absolute;
     top: 778px;
     left: 666px;
-    width: 145px;
+    width: 150px;
 }
 
 #CCM-1127 {
@@ -6592,7 +6588,7 @@ div.dn_arrow {
 #CCM-1128 {
     position: absolute;
     top: 815px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 27px;
@@ -6627,7 +6623,7 @@ div.dn_arrow {
     position: absolute;
     top: 866px;
     left: 541px;
-    width: 280px;
+    width: 283px;
 }
 
 #CCM-1131 {
@@ -6655,7 +6651,7 @@ div.dn_arrow {
     position: absolute;
     top: 919px;
     left: 539px;
-    width: 345px;
+    width: 349px;
 }
 
 #CCM-1135 {
@@ -6697,7 +6693,7 @@ div.dn_arrow {
     position: absolute;
     top: 1042px;
     left: 540px;
-    width: 290px;
+    width: 295px;
 }
 
 #CCM-1141 {
@@ -6711,7 +6707,7 @@ div.dn_arrow {
     position: absolute;
     top: 1067px;
     left: 540px;
-    width: 310px;
+    width: 320px;
 }
 
 #CCM-1143 {
@@ -6725,7 +6721,7 @@ div.dn_arrow {
     position: absolute;
     top: 1109px;
     left: 536px;
-    width: 305px;
+    width: 310px;
 }
 
 #CCM-1145 {
@@ -6739,7 +6735,7 @@ div.dn_arrow {
     position: absolute;
     top: 1167px;
     left: 535px;
-    width: 225px;
+    width: 230px;
 }
 
 #CCM-1147 {
@@ -6757,7 +6753,7 @@ div.dn_arrow {
 #CCM-1201 {
     position: absolute;
     top: 29px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -6776,7 +6772,7 @@ div.dn_arrow {
 #CCM-1202 {
     position: absolute;
     top: 70px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -6913,7 +6909,7 @@ div.dn_arrow {
 #BE4-0108 {
     position: absolute;
     top: 1087px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 46px;
@@ -6989,7 +6985,7 @@ div.dn_arrow {
 #BE4-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 33px;
@@ -7112,7 +7108,7 @@ div.dn_arrow {
 #BE4-0301 {
     position: absolute;
     top: 37px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -7123,7 +7119,7 @@ div.dn_arrow {
 #BE4-0302 {
     position: absolute;
     top: 72px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-style: italic;
@@ -7399,7 +7395,7 @@ div.dn_arrow {
 #BE4-0501 {
     position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 36px;
@@ -7534,7 +7530,7 @@ div.dn_arrow {
 #BE4-0512 {
     position: absolute;
     top: 1064px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -7842,7 +7838,7 @@ div.dn_arrow {
 #BE4-0801 {
     position: absolute;
     top: 28px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -8073,7 +8069,7 @@ div.dn_arrow {
 #BE4-0901 {
     position: absolute;
     top: 33px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -8374,7 +8370,7 @@ div.dn_arrow {
 #BE4-1101 {
     position: absolute;
     top: 38px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -8555,7 +8551,7 @@ div.dn_arrow {
 #BE4-1123 {
     position: absolute;
     top: 1045px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 28px;
@@ -8566,7 +8562,7 @@ div.dn_arrow {
 #BE4-1124 {
     position: absolute;
     top: 1082px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 20px;
@@ -8734,7 +8730,6 @@ div.dn_arrow {
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-size: 11px;
-    font-weight: normal;
     line-height: 165%;
     font-weight: bold;
 }
@@ -8742,7 +8737,7 @@ div.dn_arrow {
 #BE4-1201 {
     position: absolute;
     top: 19px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -8761,7 +8756,7 @@ div.dn_arrow {
 #BE4-1202 {
     position: absolute;
     top: 60px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 

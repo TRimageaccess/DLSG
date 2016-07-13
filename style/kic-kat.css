@@ -280,12 +280,13 @@
 .infoblock .infoblock__header {
     color: black;
     font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 60px;
+    font-size: 45px;
     text-shadow: none;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0;
     line-height: 60px;
+    margin-top: 20px;
 }
 
 .infoblock .infoblock__image {
@@ -842,4 +843,9 @@
     box-shadow: 2px 3px 5px 5px #ddd;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.img-top{
+    position: relative;
+    top: 30px;
 }
