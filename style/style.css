@@ -16,7 +16,7 @@ img {
 }
 
 h3 {
-    margin: 0.5em 0.5em 0.5em 0em;
+    margin: 0.5em 0.5em 0.5em 0;
     font-size: 20px;
 }
 
@@ -46,11 +46,11 @@ span.slanty {
 }
 
 .mint {
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 .peppermint {
-    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0px 1px 2px #8ad, 0px 0px 1px #8ad;
+    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0 1px 2px #8ad, 0 0 1px #8ad;
 }
 
 ul.peppermint {
@@ -100,8 +100,8 @@ hr {
 .viewport {
     width: 1200px;
     height: 720px;
-    margin: 0px 0px 0px 0px;
-    border: solid 0px #ccc;
+    margin: 0 0 0 0;
+    border: solid 0 #ccc;
     overflow: hidden;
     position: relative;
     color: #000;
@@ -185,7 +185,7 @@ hr {
 .f5-tab li.active, .g5-tab li.active {
     cursor: default;
     background: #fff;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .f5-tab li:hover h2, .g5-tab li:hover h2, .f5-ov-buttons li:hover {
@@ -198,7 +198,7 @@ hr {
     color: #000;
     width: 100%;
     text-align: center;
-    margin: 0px 5px;
+    margin: 0 5px;
     line-height: 18px;
     font-size: 16px;
     text-align: center;
@@ -220,7 +220,7 @@ hr {
     margin-bottom: 0;
     overflow: hidden;
     position: relative;
-    border: 0px solid #888;
+    border: 0 solid #888;
     border-radius: 5px;
     box-shadow: 2px 3px 5px 5px #ccc;
     display: block;
@@ -285,14 +285,14 @@ hr {
     padding: 4px;
     line-height: 38px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .pane_text_overlay ul li {
     background-image: url(../images/blue-bullet.png);
     background-repeat: no-repeat;
-    background-position: 0px 15px;
+    background-position: 0 15px;
     padding-left: 24px;
 }
 
@@ -316,14 +316,14 @@ hr {
     padding: 4px;
     line-height: 30px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .pane_text_overlay2 ul li {
     background-image: url(../images/blue-bullet.png);
     background-repeat: no-repeat;
-    background-position: 0px 10px;
+    background-position: 0 10px;
     padding-left: 24px;
 }
 
@@ -347,14 +347,14 @@ hr {
     padding: 4px;
     line-height: 38px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .pane_text_overlay3 ul li {
     background-image: url(../images/blue-bullet.png);
     background-repeat: no-repeat;
-    background-position: 0px 10px;
+    background-position: 0 10px;
     padding-left: 24px;
 }
 
@@ -439,7 +439,7 @@ hr {
 }
 
 .f5-navi a.active {
-    background-position: 0 0px;
+    background-position: 0 0;
 }
 
 #product-content {
@@ -527,7 +527,7 @@ div.family-list-label {
     right: 50%;
     margin-top: 10px;
     padding: 2px 10px;
-    border: 0px solid #ddd;
+    border: 0 solid #ddd;
     border-radius: 6px;
     z-index: 20;
     background-color: #fff;
@@ -541,7 +541,7 @@ h2.family-list, h2.mint {
     font-size: 180%;
     line-height: 120%;
     /* font-style:italic;text-decoration:underline;*/
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
     background-color: #fff;
 }
 
@@ -552,7 +552,7 @@ h3.family-list, h3.mint {
     font-size: 150%;
     line-height: 120%;
     /* font-style:italic;text-decoration:none;*/
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 h3.peppermint {
@@ -563,7 +563,7 @@ h3.peppermint {
     line-height: 120%;
     /* font-style:italic;text-decoration:none;*/
     text-shadow: none;
-    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0px 1px 2px #8ad, 0px 0px 1px #8ad;
+    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0 1px 2px #8ad, 0 0 1px #8ad;
 }
 
 h2.family-list a, h2.mint a {
@@ -615,7 +615,7 @@ div.family-list li a p {
 }
 
 div.family-list li a:hover p {
-    margin: 0 0px;
+    margin: 0 0;
     padding: 4px 8px;
     line-height: 22px;
     border-radius: 8px;
@@ -640,24 +640,24 @@ div.family-list li a:hover p {
     width: 100%;
     padding: 0;
     border-collapse: collapse;
-    border: 0px;
+    border: 0;
 }
 
 .w3c tr {
-    border: 0px;
+    border: 0;
 }
 
 .w3c td {
     font-size: 12px;
     color: #333;
     font-style: italic;
-    border: 0px;
+    border: 0;
     background-color: #fff;
 }
 
 ul.copyright li {
     text-align: center;
-    padding: 0px 64px;
+    padding: 0 64px;
 }
 
 ul.copyright li p a {
@@ -684,7 +684,7 @@ ul.copyright li.copy a {
     width: 1100px;
     background-image: url(../images/TimelineSwoop.980.png);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: 0 0;
     font: 14px Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -705,7 +705,7 @@ ul.copyright li.copy a {
     height: 82px;
     background-image: url(../images/DLSG_at_IA_Logo_small.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: 0 0;
     margin: 20px 10px;
     float: left;
     clear: right;
@@ -716,7 +716,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask2 {
@@ -724,7 +724,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask3 {
@@ -732,7 +732,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask4 {
@@ -740,7 +740,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 610px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask5 {
@@ -748,7 +748,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 570px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask6 {
@@ -756,7 +756,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 520px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask7 {
@@ -764,7 +764,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 470px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask8 {
@@ -772,7 +772,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 450px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask9 {
@@ -780,7 +780,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 460px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask10 {
@@ -788,7 +788,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 470px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask11 {
@@ -796,7 +796,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 450px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask12 {
@@ -804,7 +804,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 440px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask13 {
@@ -812,7 +812,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 430px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask14 {
@@ -820,7 +820,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 460px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask15 {
@@ -828,7 +828,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 480px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask16 {
@@ -836,7 +836,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 510px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask17 {
@@ -844,7 +844,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 580px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask18 {
@@ -852,7 +852,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 620px;
     height: 38px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask19 {
@@ -860,7 +860,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 660px;
     height: 38px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask20 {
@@ -868,7 +868,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 1080px;
     height: 275px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #history {
@@ -892,7 +892,7 @@ ul.copyright li.copy a {
     width: 553px;
     height: 255px;
     border-style: solid;
-    border-width: 0px;
+    border-width: 0;
 }
 
 .support-address {
@@ -900,7 +900,7 @@ ul.copyright li.copy a {
     width: 350px;
     float: left;
     height: auto;
-    border: 0px solid #aaa;
+    border: 0 solid #aaa;
     margin: 0;
     border-radius: 5px;
     padding: 20px;
@@ -914,7 +914,7 @@ ul.copyright li.copy a {
     font-size: 18px;
     font-weight: bold;
     margin-top: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .support-address .support-address-2 {
@@ -937,7 +937,7 @@ ul.copyright li.copy a {
 }
 
 .support-button img {
-    border-width: 0px;
+    border-width: 0;
     margin-top: -7px;
 }
 
@@ -956,13 +956,13 @@ ul.copyright li.copy a {
 }
 
 .support-photo {
-    margin: 120px 0px 20px 20px;
+    margin: 120px 0 20px 20px;
     float: right;
     text-align: center;
     width: 405px;
     height: 270px;
     border-style: solid;
-    border-width: 0px
+    border-width: 0
 }
 
 .support-triple {
@@ -1429,7 +1429,7 @@ td {
     font-size: 17pt;
     line-height: 100%;
     color: #555;
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 .pane_text_overlay.quote.product_tag3 p {
@@ -2560,10 +2560,12 @@ td {
     width: 500px;
     color: rgb(130, 130, 130);
 }
-.gallery-width{
+
+.gallery-width {
     width: 1200px;
     height: 800px;
 }
+
 #cycle-control {
     position: absolute;
     display: block;
@@ -2579,7 +2581,7 @@ td {
 
 #NewsEvents #cycle-control {
     top: 686px;
-    left: 0px;
+    left: 0;
 }
 
 #cycle-control div {
@@ -2597,15 +2599,15 @@ td {
 }
 
 #cycle-control .play.active {
-    background: url(../images/play-pause.jpg) 0px -20px no-repeat;
+    background: url(../images/play-pause.jpg) 0 -20px no-repeat;
 }
 
 #cycle-control .pause {
-    background: url(../images/play-pause.jpg) -20px 0px no-repeat;
+    background: url(../images/play-pause.jpg) -20px 0 no-repeat;
 }
 
 #cycle-control .pause.active {
-    background: url(../images/play-pause.jpg) 0px 0px no-repeat;
+    background: url(../images/play-pause.jpg) 0 0 no-repeat;
 }
 
 div.cycle {
@@ -2647,7 +2649,7 @@ div.cycle div {
 }
 
 #cyclenav a.activeSlide, .cyclenav a.activeSlide {
-    background-position: 0 0px;
+    background-position: 0 0;
 }
 
 #cyclenav a:hover, .cyclenav a:hover {
@@ -2744,7 +2746,7 @@ div.cycle div {
 }
 
 #news_story_box div.img-logo3 {
-    float: clear;
+    /*float: clear;*/
     width: auto;
     height: auto;
     margin-right: 20px;
@@ -2773,7 +2775,7 @@ div.cycle div {
     top: 0;
     left: 0;
     padding: 0;
-    margin: 60px 0px 0px 0px;
+    margin: 60px 0 0 0;
     z-index: 3;
     border: 1px solid #888;
     border-radius: 4px;
@@ -2854,8 +2856,8 @@ div.cycle div {
 #Events_exhibits {
     position: absolute;
     overflow: visible;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     width: 285px;
     height: 450px;
     padding: 10px;
@@ -2875,7 +2877,7 @@ div.cycle div {
     font-style: italic;
     text-align: center;
     text-decoration: none;
-    margin: 2px 0px 5px 0px;
+    margin: 2px 0 5px 0;
     padding: 0;
     background: #eee;
     background: rgba(239, 239, 239, 0.7);
@@ -2910,7 +2912,7 @@ div.cycle div {
 }
 
 .event_item img {
-    border: 0px solid #888;
+    border: 0 solid #888;
     border-radius: 3px;
     z-index: 15;
     margin: 0;
@@ -2987,7 +2989,7 @@ div.cycle div {
 .formset {
     width: 670px;
     float: left;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 #commentForm fieldset {
@@ -3008,7 +3010,7 @@ div.cycle div {
 
 #commentForm em {
     float: left;
-    width: 0px;
+    width: 0;
     color: #f00;
 }
 
