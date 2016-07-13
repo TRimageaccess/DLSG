@@ -2562,8 +2562,10 @@ td {
 }
 
 .gallery-width {
-    width: 1200px;
-    height: 800px;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 #cycle-control {
@@ -2952,10 +2954,6 @@ div.cycle div {
     float: left;
     margin: 4px 15px;
     text-align: left;
-}
-
-.event_summary {
-    font-style: bold;
 }
 
 .event_date {
