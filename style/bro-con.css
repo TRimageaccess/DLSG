@@ -2397,11 +2397,13 @@ div.dn_arrow {
 #WF-02 h1.block-title {
     text-align: center;
 }
-
-#WF-02 img {
-    float: right;
-    margin-right: 10px;
+.block-stage p.stage-body{
+    margin-left: 10px;
 }
+/*#WF-02 img {*/
+    /*float: right;*/
+    /*margin-right: 10px;*/
+/*}*/
 
 #WF-0201 {
     position: absolute;
