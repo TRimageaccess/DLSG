@@ -143,15 +143,15 @@ h1.block-tag {
     margin: 2.5em 2em 1em 0;
     width: 90%;
     float: left;
-    list-style-image: url(../images/green-bullet.png);
+    list-style-image: url(http://upload.ted-kteam.com/DLSG/images/green-bullet.png);
 }
 
 .brochure-block ul.peppermint {
-    list-style-image: url(../images/blue-bullet.png);
+    list-style-image: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png);
 }
 
 .brochure-block ul.peppermint2 {
-    list-style-image: url(../images/blue-bullet2.png);
+    list-style-image: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet2.png);
 }
 
 .brochure-block ul.bullet {
@@ -182,14 +182,14 @@ h1.block-tag {
 div.rt_arrow {
     width: 46px;
     height: 80px;
-    background: url(../images/rt_arrow.png) no-repeat 10px 30px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/rt_arrow.png) no-repeat 10px 30px;
     float: left;
 }
 
 div.dn_arrow {
     width: 46px;
     height: 80px;
-    background: url(../images/dn_arrow_thin.png) no-repeat 0 0;
+    background: url(http://upload.ted-kteam.com/DLSG/images/dn_arrow_thin.png) no-repeat 0 0;
     float: left;
 }
 
@@ -724,7 +724,7 @@ div.dn_arrow {
 }
 
 #K-14r1 {
-    background: url(../images/kb-a1406.jpg) no-repeat 0 0;
+    background: url(http://upload.ted-kteam.com/DLSG/images/kb-a1406.jpg) no-repeat 0 0;
     min-height: 340px;
 }
 
@@ -805,7 +805,7 @@ div.dn_arrow {
 }
 
 #K-23 {
-    background: url(../images/3_points.jpg) no-repeat 0 0;
+    background: url(http://upload.ted-kteam.com/DLSG/images/3_points.jpg) no-repeat 0 0;
     height: 1680px;
     margin-left: 42px;
 }

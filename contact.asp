@@ -222,7 +222,7 @@
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img src="images/DSLG and IA Logos.jpg" alt="">
+  <img src="http://upload.ted-kteam.com/DLSG/images/DSLG and IA Logos.jpg" alt="">
   <p class="support-address-1"> Digital Library Systems Group </p>
   <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
   <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
@@ -231,7 +231,7 @@
   </p>
   <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
-  <img src="images/Collage_3_Products.jpg" alt="" width="300">   
+  <img src="http://upload.ted-kteam.com/DLSG/images/Collage_3_Products.jpg" alt="" width="300">
 </div>
 
 <div class="page-title">
@@ -470,7 +470,7 @@
         <li>
         <p>
           <a href="http://www.imageaccess.com" target="_blank">Image Access, USA</a>
-          <img src="images/flag-us.jpg" alt="">
+          <img src="http://upload.ted-kteam.com/DLSG/images/flag-us.jpg" alt="">
         </p>
         </li>
         <li class="copy">
@@ -479,7 +479,7 @@
         <li>
         <p>
           <a href="http://www.imageaccess.de" target="_blank">Image Access, Europe</a>
-          <img src="images/flag-eu.jpg" alt="">
+          <img src="http://upload.ted-kteam.com/DLSG/images/flag-eu.jpg" alt="">
         </p>
         </li>
       </ul>
@@ -490,9 +490,9 @@
   <table>
     <tr> <td>
         <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-          <img src="images/valid-html401.png" alt="valid html" width="88" height="31"></a></td> <td>Designed for web standards compliance</td> <td>
+          <img src="http://upload.ted-kteam.com/DLSG/images/valid-html401.png" alt="valid html" width="88" height="31"></a></td> <td>Designed for web standards compliance</td> <td>
         <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-          <img src="images/valid-css.png" alt="valid css" width="88" height="31"></a></td>
+          <img src="http://upload.ted-kteam.com/DLSG/images/valid-css.png" alt="valid css" width="88" height="31"></a></td>
     </tr>
   </table>
 </div>
