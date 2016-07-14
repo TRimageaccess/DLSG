@@ -3229,7 +3229,8 @@ span.mildHL {
 .g5-slide img {
     padding-top: 30px;
 }
-.f5 .f5-pane img{
+.f5 #defaultpane img,
+.f5 #OPUSpane-cycle img{
     padding-top:30px;
 }
 .clear-fix {
