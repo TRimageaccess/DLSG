@@ -8623,7 +8623,7 @@ div.dn_arrow {
     position: absolute;
     top: 1140px;
     left: 275px;
-    width: 280px;
+    width: 284px;
 }
 
 #BE4-1129 {
@@ -8637,7 +8637,7 @@ div.dn_arrow {
     position: absolute;
     top: 1181px;
     left: 275px;
-    width: 340px;
+    width: 350px;
 }
 
 #BE4-1131 {
@@ -8646,7 +8646,9 @@ div.dn_arrow {
     left: 74px;
     width: 160px;
 }
-
+#WF-0321 li {
+    font-size: 117%;
+}
 #BE4-1132 {
     position: absolute;
     top: 1235px;
@@ -8665,7 +8667,7 @@ div.dn_arrow {
     position: absolute;
     top: 1289px;
     left: 275px;
-    width: 240px;
+    width: 245px;
 }
 
 #BE4-1135 {
@@ -8679,7 +8681,7 @@ div.dn_arrow {
     position: absolute;
     top: 1321px;
     left: 275px;
-    width: 290px;
+    width: 293px;
 }
 
 #BE4-1137 {
@@ -8693,7 +8695,7 @@ div.dn_arrow {
     position: absolute;
     top: 1350px;
     left: 275px;
-    width: 310px;
+    width: 315px;
 }
 
 #BE4-1139 {
