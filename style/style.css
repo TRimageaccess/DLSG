@@ -269,10 +269,7 @@ hr {
 .pane_text_overlay {
     position: absolute;
     top: 5px;
-    left: 0;
     right: 0;
-    width: 1180px!important;
-    margin: 0 auto;
 }
 
 .pane_text_overlay p {
