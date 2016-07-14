@@ -922,7 +922,7 @@ ul.copyright li.copy a {
 }
 
 .support-email {
-    width: 230px;
+    /*width: 230px;*/
     float: left;
     margin: 20px 0 0 0;
 }
@@ -932,7 +932,8 @@ ul.copyright li.copy a {
 }
 
 .support-button {
-    float: left;
+    position: absolute;
+    right: -32px;
     margin: 20px 0 0 0;
 }
 
@@ -942,7 +943,7 @@ ul.copyright li.copy a {
 }
 
 .support-main {
-    float: left;
+    float: right;
     width: 380px;
     margin-top: 10px;
 }
@@ -955,14 +956,19 @@ ul.copyright li.copy a {
     margin-top: 30px;
 }
 
+.wrapper-mail{
+    position: relative;
+    /*overflow: hidden;*/
+}
+
 .support-photo {
-    margin: 120px 0 20px 20px;
+    margin: 120px 0 20px 10px;
     float: right;
     text-align: center;
-    width: 405px;
+    width: 380px;
     height: 270px;
     border-style: solid;
-    border-width: 0
+    border-width: 0;
 }
 
 .support-triple {

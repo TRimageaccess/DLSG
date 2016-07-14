@@ -337,6 +337,7 @@ a:hover {
     font-size: 3.6rem;
     line-height: 3.8rem;
     padding: 15px 0 25px 25px;
+    text-align: center;
 }
 
 .infoblock .advisors__advisor {
