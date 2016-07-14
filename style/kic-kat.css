@@ -851,3 +851,9 @@ h3.block__title{
     position: relative;
     top: 30px;
 }
+
+.image-text.image-bottom-header.fix {
+    width: 30%;
+    text-align: right;
+    padding-bottom: 0;
+}
