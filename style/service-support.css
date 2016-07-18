@@ -14,20 +14,18 @@ fieldset {
 
 /*check service ticket*/
 .infoblock__content-holder {
-    width: 90%;
-    margin: 0 auto;
     overflow: hidden;
 }
 
 .content-holder__forms {
-    width: 60%;
+    width: 725px;
     float: left;
     padding: 0 20px;
 }
 
 .content-holder__pictures {
     padding: 15px 15px 0 0;
-    width: 35%;
+    width: 420px;
     float: right;
 }
 
@@ -71,37 +69,8 @@ button {
     cursor: pointer;
 }
 
-#Wrapp {
-    left: 30%;
-    top: 7%;
-    position: fixed;
-    background-color: rgba(64, 154, 213, 0.8);
-    width: 60%;
-    height: 81%;
-    z-index: 10000;
-    border-radius: 10px;
-}
-
-#tt {
-    position: relative;
-    background-color: #fff;
-    width: 200px;
-    padding: 25px;
-    height: 80px;
-    border: none;
-    margin: 17% auto;
-    border-radius: 10px;
-}
-
-.infoblock .close {
-    text-shadow: none;
-    color: #02307E;
-}
-
 .bottom-img {
     margin: 15px auto 0;
-    width: 80% !important;
-    height: 80%;
     display: block;
 }
 
@@ -113,43 +82,16 @@ button {
     padding: 14px 0 10px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .content-holder__forms {
-        width: 50%;
-    }
-
-    .content-holder__pictures {
-        width: 50%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 270px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-}
-
 /*check service ticket end*/
 
 /*check order status*/
 .service-bg {
-    background: url("../images/serviceSupportBG.png") no-repeat 0 219px;
+    background: url("http://upload.ted-kteam.com/DLSG/images/serviceSupportBG.png") no-repeat 0 219px;
     padding: 20px 20px 514px 20px;
-    background-size: 95%;
+    background-size: 1160px;
 }
 
 .infoblock__double-check-order-status {
-    width: 100%;
     overflow: hidden;
 }
 
@@ -163,61 +105,89 @@ button {
     border-right: 1px solid #000;
 }
 
-#Wrapp {
-    display: none;
-    left: 30%;
-    top: 7%;
-    position: fixed;
-    background-color: rgba(64, 154, 213, 0.8);
-    width: 60%;
-    height: 92%;
-    z-index: 10000;
-    border-radius: 10px;
-}
-
-#tt {
-    position: relative;
-    background-color: #fff;
-    width: 200px;
-    padding: 25px;
-    height: 80px;
+.double-check-order-status__form a.service-support-button {
+    background: #33b74b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
     border: none;
-    margin: 17% auto;
-    border-radius: 10px;
+    width: 100px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
 
-.infoblock .close {
-    text-shadow: none;
-    color: #02307E;
+.content-holder__forms a.service-support-button {
+    background: #33b74b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.overlayy {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    /*transition: opacity 500ms;*/
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+}
+
+.overlayy:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    /*transition: all 5s ease-in-out;*/
+}
+
+.popup h2 {
+    color: #333;
+    text-align: center;
+}
+
+.popup .close {
+    position: absolute;
+    top: 9px;
+    right: 20px;
+    /*transition: all 200ms;*/
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
 }
 
 .check-order-status-plane {
     margin-top: -140px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 300px;
-        padding: 20px 20px 363px 20px;
-        background-size: contain;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 375px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-}
 
 /*check order status end*/
 
@@ -367,6 +337,7 @@ a:hover {
     font-size: 3.6rem;
     line-height: 3.8rem;
     padding: 15px 0 25px 25px;
+    text-align: center;
 }
 
 .infoblock .advisors__advisor {
@@ -396,25 +367,4 @@ a:hover {
 }
 .infoblock__advisors-image {
     margin-top: 130px;
-}
-@media all and (min-width: 1400px) and (max-width: 1600px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 37%;
-        top: 6px;
-    }
-
-}
-
-@media all and (max-width: 1400px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 27%;
-        top: 5px
-    }
-}
-
-@media all and (max-width: 1200px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 29%;
-        top: -3px
-    }
 }
