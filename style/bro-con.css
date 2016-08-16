@@ -8807,3 +8807,14 @@ div.dn_arrow {
     width: 130px;
 }
 
+.brochure-block--new-text {
+    position: absolute;
+    width: 46%;
+    top: 330px;
+    left: 67px;
+}
+
+.brochure-block--beat-img{
+    text-align: center;
+}
+
