@@ -269,11 +269,11 @@
   <legend> &emsp; About Your Company &emsp; </legend>
   <p>
    <label for="company">Company</label>
-   <em> &emsp; </em><input id="company" name="company" size="25" />
+   <em> &emsp; </em><input id="company"  name="company" size="25" />
   </p>
   <p>
    <label for="telephone">Telephone #</label>
-   <em>*</em><input id="telephone" name="telephone" size="25" class="required phoneUS" />
+   <em>*</em><input id="telephone" name="telephone" size="25" placeholder="+1 234 567 8900"  class="required phoneUS"  />
   </p>
   <p>
    <label for="fax">Fax #</label>
