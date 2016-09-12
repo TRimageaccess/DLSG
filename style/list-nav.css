@@ -115,7 +115,6 @@
 .list-nav li:hover li a:hover, .list-nav li:hover li:hover a {
     color: #eee;
     background-color: #aca;
-    width: 18.5em;
 }
 
 /* third level*/
@@ -129,7 +128,6 @@
 .list-nav li:hover li:hover li a:hover, .list-nav li:hover li:hover li:hover a {
     color: #000;
     background-color: #bcb;
-    width: 18.5em;
 }
 
 .lower-nav {
@@ -153,7 +151,6 @@
 .lower-nav p {
     color: #888;
     font-weight: bold;
-    font-style: italic;
 }
 
 .lower-nav a {
@@ -163,4 +160,15 @@
 
 .lower-nav li.label p {
     font-style: normal;
+}
+
+.kat-hover-effect li a{
+    color: #111;
+    background-color: rgba(204, 221, 204, 0.7)!important;
+    width: 18em;
+}
+
+.kat-hover-effect li a:hover{
+    color: #eee!important;
+    background-color: #aca!important;
 }
