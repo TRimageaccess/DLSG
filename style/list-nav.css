@@ -35,7 +35,7 @@
 }
 
 .list-nav-footer {
-    width: 866px;
+    width: 1050px;
 }
 
 .list-nav ul {
@@ -81,7 +81,7 @@
 }
 
 .list-nav li a, .list-nav li li a, .list-nav li li li a {
-    font: bold 16px/20px arial, helvetica, sans-serif;
+    font: bold 16px/20px 'Lato', helvetica, sans-serif;
     display: block;
     color: #000;
     text-decoration: none;
@@ -115,7 +115,6 @@
 .list-nav li:hover li a:hover, .list-nav li:hover li:hover a {
     color: #eee;
     background-color: #aca;
-    width: 18.5em;
 }
 
 /* third level*/
@@ -123,13 +122,12 @@
     color: #000;
     background-color: #cdc;
     background-color: rgba(238, 255, 238, 0.7);
-    width: 16em;
+    width: 18em;
 }
 
 .list-nav li:hover li:hover li a:hover, .list-nav li:hover li:hover li:hover a {
     color: #000;
     background-color: #bcb;
-    width: 16.5em;
 }
 
 .lower-nav {
@@ -153,7 +151,6 @@
 .lower-nav p {
     color: #888;
     font-weight: bold;
-    font-style: italic;
 }
 
 .lower-nav a {
@@ -163,4 +160,15 @@
 
 .lower-nav li.label p {
     font-style: normal;
+}
+
+.kat-hover-effect li a{
+    color: #111;
+    background-color: rgba(204, 221, 204, 0.7)!important;
+    width: 18em;
+}
+
+.kat-hover-effect li a:hover{
+    color: #eee!important;
+    background-color: #aca!important;
 }

@@ -111,7 +111,6 @@
     float: right;
 }
 
-
 /*************************************************************************************************************/
 /************************************************** KAT first page *******************************************/
 /*************************************************************************************************************/
@@ -148,7 +147,7 @@
 
 .infoblock .image-title--stacks-view {
     position: relative;
-    bottom: 250px;
+    bottom: 200px;
     left: 175px;
 }
 
@@ -310,11 +309,9 @@
 }
 
 .infoblock .infoblock__bottom-text {
-    position: relative;
-    left: 504px;
-    margin-top: -156px;
-    padding-bottom: 100px;
-    width: 41%;
+    width: 45%;
+    display: block;
+    margin: 0 auto 15px;
 }
 
 /*************************************************************************************************************/
@@ -342,6 +339,8 @@
     margin-left: 144px;
     margin-bottom: 20px;
     width: 75%;
+    font-size: 27px;
+    font-weight: bold;
 }
 
 .infoblock .infoblock__image--WIYS {
@@ -367,7 +366,6 @@
 }
 
 .infoblock .infoblock__sub-header--PYPC-FBL {
-    margin-top: 185px;
     padding-bottom: 40px;
     font-size: 48px;
 }
@@ -387,11 +385,14 @@
 }
 
 .infoblock .search-screen__image-title--PYPC {
-    position: relative;
-    left: 420px;
-    margin-bottom: -65px;
-    font-weight: bold;
-    font-size: 19px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 34px;
+}
+
+.infoblock__search-screen img{
+    margin-bottom: 30px;
 }
 
 .infoblock .image-title--PYPC {
@@ -416,14 +417,23 @@
 }
 
 .infoblock .search-screen__info {
-    font-family: LatoItalic; /* font-style: italic; */
-    position: relative;
-    margin-top: -455px;
-    padding-bottom: 45px;
-    left: 840px;
-    width: 25%;
+    font-family: LatoItalic;
+    width: 44%;
+    position: absolute;
+    bottom: 100px;
+    left: 47%;
 }
 
+.infoblock .screen__info-one-column{
+    width: 12%;
+    left: 55%;
+}
+
+.infoblock .screen__info-two-column{
+    width: 12%;
+    left: 79%;
+    bottom: 117px;
+}
 .infoblock .professor-photo__text {
     position: relative;
     left: 864px;
@@ -824,9 +834,11 @@
 .infoblock .images__image {
 
 }
-h3.block__title{
+
+h3.block__title {
     font-size: 18px;
 }
+
 /*************************************************************************************************************/
 /************************************************** MEDIA QUERIES ********************************************/
 /*************************************************************************************************************/
@@ -847,7 +859,7 @@ h3.block__title{
     border-radius: 5px;
 }
 
-.img-top{
+.img-top {
     position: relative;
     top: 30px;
 }
@@ -856,4 +868,127 @@ h3.block__title{
     width: 30%;
     text-align: right;
     padding-bottom: 0;
+}
+
+/*****************big title block***********************/
+.big-title {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#KAT_Big_title {
+    position: relative;
+}
+
+.kat-tabs-links {
+    list-style: none;
+}
+
+.kat-tabs-links:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.kat-tabs-links li {
+    float: left;
+    width: calc(100% / 3);
+    font-weight: bold;
+    padding: 15px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab-content-hide {
+    display: block !important;
+    position: relative;
+}
+
+.kat-tabs-links li.active-tab {
+    position: relative;
+    background: #fff;
+    border: 1px solid;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.kat-tabs-links--top li.active-tab:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    background: #fff;
+    height: 3px;
+    width: 100%;
+}
+
+.kat-tabs-links--bottom li.active-tab {
+    border-radius: 0 0 5px 5px;
+    border: 1px solid;
+    border-top: none;
+}
+
+.kat-tabs-links--bottom li.active-tab:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    background: #fff;
+    height: 3px;
+    width: 100%;
+}
+
+.tabs-for-kat {
+    border: 1px solid #000;
+}
+
+.tabs-for-kat p {
+    font-size: 16px;
+}
+
+.list-stacks {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 16px;
+}
+
+.bottom-text_first-tab {
+    position: absolute;
+    bottom: 117px;
+    left: 110px;
+    right: 0;
+    text-align: center;
+}
+
+.bottom-text_two-tab {
+    position: absolute;
+    bottom: 94px;
+    left: 45%;
+}
+
+.sub-header-title-promote {
+    width: 64%;
+    margin: -30px auto 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.infoblock__search-screen {
+    position: relative;
+}
+
+.infoblock__search-screen img {
+    width: 98%;
+}
+
+#KAT_A_Picture_is_Worth_a_Thousand_Words {
+    padding: 0 9px;
 }
