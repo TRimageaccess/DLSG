@@ -7038,7 +7038,7 @@ div.dn_arrow {
 #BE4-02 p.block_text2 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: justify;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 110%;
 }
 
@@ -8908,4 +8908,50 @@ div.dn_arrow {
     line-height: 1.3em;
     font-size: 150%;
     color: #000;
+}
+
+/*bookedge*/
+.block-title--bookedge{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 1200px;
+    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-title-bookedge{
+    font-style: italic;
+    font-size: 22px;
+    margin: 0 auto;
+    position: absolute;
+    top: 77px;
+    left: 0;
+    right: 0;
+    width: 453px;
+    line-height: 1.1;
+}
+
+.smart-dok-text{
+    position: absolute;
+    text-align: center;
+    color: #888;
+    left: 191px;
+    top: 924px;
+    font-size: 20px;
+    width: 332px;
+    font-style: italic;
+}
+
+.bookedge-all-text{
+    position: absolute;
+    top: 806px;
+    right: 102px;
+    font-size: 13px;
+}
+
+.bookedge-all-text p{
+    line-height: 1.1;
 }
