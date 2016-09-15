@@ -252,7 +252,7 @@
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img width="300" height="80" src="http://upload.ted-kteam.com/IA/images/logo/DSLG-and-IA-Logos.png" alt="">
+  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/logo/DSLG-and-IA-Logos.png" alt="">
   <p class="support-address-1"> Digital Library Systems Group </p>
   <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
   <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
