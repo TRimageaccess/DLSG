@@ -6482,9 +6482,10 @@ div.dn_arrow {
 
 #CCM-1114 {
     position: absolute;
-    top: 684px;
+    top: 681px;
     left: 239px;
-    width: 255px;
+    width: 304px;
+    line-height: 1 !important;
 }
 
 #CCM-1115 {
@@ -6504,9 +6505,10 @@ div.dn_arrow {
 
 #CCM-1117 {
     position: absolute;
-    top: 684px;
+    top: 681px;
     left: 834px;
-    width: 255px;
+    width: 304px;
+    line-height: 1 !important;
 }
 
 #CCM-1118 {
