@@ -701,13 +701,14 @@ ul.copyright li.copy a {
 
 #about_logo {
     width: 350px;
-    height: 82px;
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/DLSG_at_IA_Logo_small.jpg);
+    height: 105px;
+    background-image: url(http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     margin: 20px 10px;
     float: left;
     clear: right;
+    background-size: cover;
 }
 
 #about_mask1 {
