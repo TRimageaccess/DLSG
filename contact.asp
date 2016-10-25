@@ -161,9 +161,9 @@
                                    <li>
                                        <a href="opus-workflow.html">Opus WorkFlow </a>
                                    </li>
-                                   <li>
-                                       <a href="offline-digital-archives-manager.html">Offline Digital Archives Manager</a>
-                                   </li>
+                                   <!--<li>-->
+                                       <!--<a href="offline-digital-archives-manager.html">Offline Digital Archives Manager</a>-->
+                                   <!--</li>-->
                                </ul>
                            </li>
                            <li>
@@ -221,7 +221,7 @@
                                    <li><a href="contact-service-department.html">Contact Service Department</a></li>
                                    <li><a href="the-service-and-support-team.html">The Service & Support Team</a></li>
                                    <li><a href="the-digitization-advisory-team.html">The Digitization Advisory Team</a></li>
-                                   <li><a href="software-and-support-team.html">Software and Support Team</a></li>
+                                   <li><a href="hybrid-library-educators.html">Hybrid Library Educators</a></li>
                                </ul>
                            </li>
                            <li>
@@ -252,7 +252,7 @@
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/logo/DSLG-and-IA-Logos.png" alt="">
+  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png" alt="">
   <p class="support-address-1"> Digital Library Systems Group </p>
   <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
   <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>

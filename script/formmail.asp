@@ -42,8 +42,11 @@
     recipients = "todd.rowe@dlsg.com"                                           'added
     subject = "bot check fail from : " & Request.ServerVariables("REMOTE_ADDR") & ": " & Request.Form("_subject")                     'added
 		if GetHost(Request.ServerVariables("HTTP_REFERER")) = "www.imageaccess.com" then
-      startTime = DateAdd("s",-15,Now())     
+      startTime = DateAdd("s",-15,Now())
     end if
+    if GetHost(Request.ServerVariables("HTTP_REFERER")) = "imageaccess.com" then
+          startTime = DateAdd("s",-15,Now())
+        end if
     if not IsDate(startTime) then
       body = "<p>No session cookie variable." & vbCrLf                          'added
       
