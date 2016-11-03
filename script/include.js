@@ -3,6 +3,7 @@ $(document).ready(function () {
 
     $("#header").load("blocks/header.html");
     $("#footer").load("blocks/footer.html", function () {
+        console.log("yo");
         var numRand = Math.floor(Math.random() * 72);
         var newsTicker = $("#newsTicker");
         newsTicker.smoothDivScroll({

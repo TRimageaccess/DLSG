@@ -1,4 +1,103 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700';
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/LatoBlack.eot');
+    src: url('../fonts/LatoBlack.eot') format('embedded-opentype'),
+         url('../fonts/LatoBlack.woff2') format('woff2'),
+         url('../fonts/LatoBlack.woff') format('woff'),
+         url('../fonts/LatoBlack.ttf') format('truetype'),
+         url('../fonts/LatoBlack.svg#LatoBlack') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoBlackItalic';
+    src: url('../fonts/LatoBlackItalic.eot');
+    src: url('../fonts/LatoBlackItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoBlackItalic.woff2') format('woff2'),
+         url('../fonts/LatoBlackItalic.woff') format('woff'),
+         url('../fonts/LatoBlackItalic.ttf') format('truetype'),
+         url('../fonts/LatoBlackItalic.svg#LatoBlackItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+         url('../fonts/LatoBold.woff2') format('woff2'),
+         url('../fonts/LatoBold.woff') format('woff'),
+         url('../fonts/LatoBold.ttf') format('truetype'),
+         url('../fonts/LatoBold.svg#LatoBold') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('../fonts/LatoBoldItalic.eot');
+    src: url('../fonts/LatoBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoBoldItalic.woff2') format('woff2'),
+         url('../fonts/LatoBoldItalic.woff') format('woff'),
+         url('../fonts/LatoBoldItalic.ttf') format('truetype'),
+         url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoHairline';
+    src: url('../fonts/LatoHairline.eot');
+    src: url('../fonts/LatoHairline.eot') format('embedded-opentype'),
+         url('../fonts/LatoHairline.woff2') format('woff2'),
+         url('../fonts/LatoHairline.woff') format('woff'),
+         url('../fonts/LatoHairline.ttf') format('truetype'),
+         url('../fonts/LatoHairline.svg#LatoHairline') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoHairlineItalic';
+    src: url('../fonts/LatoHairlineItalic.eot');
+    src: url('../fonts/LatoHairlineItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoHairlineItalic.woff2') format('woff2'),
+         url('../fonts/LatoHairlineItalic.woff') format('woff'),
+         url('../fonts/LatoHairlineItalic.ttf') format('truetype'),
+         url('../fonts/LatoHairlineItalic.svg#LatoHairlineItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoItalic';
+    src: url('../fonts/LatoItalic.eot');
+    src: url('../fonts/LatoItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoItalic.woff2') format('woff2'),
+         url('../fonts/LatoItalic.woff') format('woff'),
+         url('../fonts/LatoItalic.ttf') format('truetype'),
+         url('../fonts/LatoItalic.svg#LatoItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../fonts/LatoLight.eot');
+    src: url('../fonts/LatoLight.eot') format('embedded-opentype'),
+         url('../fonts/LatoLight.woff2') format('woff2'),
+         url('../fonts/LatoLight.woff') format('woff'),
+         url('../fonts/LatoLight.ttf') format('truetype'),
+         url('../fonts/LatoLight.svg#LatoLight') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoLightItalic';
+    src: url('../fonts/LatoLightItalic.eot');
+    src: url('../fonts/LatoLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoLightItalic.woff2') format('woff2'),
+         url('../fonts/LatoLightItalic.woff') format('woff'),
+         url('../fonts/LatoLightItalic.ttf') format('truetype'),
+         url('../fonts/LatoLightItalic.svg#LatoLightItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+         url('../fonts/LatoRegular.woff2') format('woff2'),
+         url('../fonts/LatoRegular.woff') format('woff'),
+         url('../fonts/LatoRegular.ttf') format('truetype'),
+         url('../fonts/LatoRegular.svg#LatoRegular') format('svg')
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -22,7 +121,7 @@ h3 {
 }
 
 p {
-    font: 14px'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
 }
 
 .caption {
@@ -660,7 +759,7 @@ ul.copyright li {
 }
 
 ul.copyright li p a {
-    font: 11px'Lato', arial, helvetica, sans-serif;
+    font: 11px 'Lato', arial, helvetica, sans-serif;
     float: left;
     padding: 6px 4px;
 }
@@ -671,9 +770,7 @@ ul.copyright li img {
 }
 
 ul.copyright li.copy a {
-    font: bold 13px'Lato', arial, helvetica, sans-serif;
-    line-height: 14px;
-    padding: 6px 4px;
+    font: 13px/24px 'LatoBold', arial, helvetica, sans-serif;
 }
 
 #about {
@@ -956,7 +1053,7 @@ ul.copyright li.copy a {
     margin-top: 30px;
 }
 
-.wrapper-mail{
+.wrapper-mail {
     position: relative;
     /*overflow: hidden;*/
 }
@@ -2609,32 +2706,38 @@ td {
     left: 10px;
     width: 590px;
 }
+
 #quote-122 {
     top: 5px;
     left: 10px;
     width: 500px;
 }
+
 #quote-123 {
     top: 10px;
     right: 10px;
     width: 400px;
 }
+
 #quote-124 {
     top: 10px;
     left: 10px;
     width: 1100px;
 }
+
 #quote-125 {
     top: 1px;
     right: 1px;
     width: 618px;
 }
+
 #quote-126 {
     top: 1px;
     right: 1px;
     width: 550px;
 }
-#quote-126 .padding-fix{
+
+#quote-126 .padding-fix {
     padding: 0;
 }
 
@@ -2949,7 +3052,7 @@ div.cycle div {
     top: 0;
 }
 
-.Events_exhibits--bottom{
+.Events_exhibits--bottom {
     bottom: 0;
 }
 
@@ -2964,7 +3067,7 @@ div.cycle div {
     text-align: center;
     text-decoration: none;
     margin: 2px 0 5px 0;
-    padding:6px 0;
+    padding: 6px 0;
     background: #eee;
     background: rgba(239, 239, 239, 0.7);
     border: 1px solid #888;
@@ -3315,14 +3418,14 @@ span.mildHL {
     clear: both;
 }
 
-.gallery-line{
-    width: 1180px!important;
+.gallery-line {
+    width: 1180px !important;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
 
-.img-drop{
+.img-drop {
     width: 250px;
 }
 
@@ -3359,9 +3462,8 @@ span.mildHL {
     width: 230px;
 }
 
-
 /*new btn*/
-.btn-access{
+.btn-access {
     background: -moz-linear-gradient(top, #c9eadb, #449a5a);
     background: -webkit-linear-gradient(top, #c9eadb, #449a5a);
     background: -o-linear-gradient(top, #c9eadb, #449a5a);
@@ -3380,7 +3482,7 @@ span.mildHL {
     outline: none;
 }
 
-.btn-access:hover{
+.btn-access:hover {
     outline: none;
     margin: 0 !important;
     padding: 4px 12px;
@@ -3428,4 +3530,19 @@ span.mildHL {
     display: block;
     width: 280px;
     text-decoration: none;
+}
+
+/*preowned styles*/
+
+.overflow {
+    overflow: hidden;
+}
+
+.overflow .list-nav-wrap {
+    width: 100%;
+}
+
+/*user gallery styles*/
+#flashcontent {
+    height: 100%;
 }
