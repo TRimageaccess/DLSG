@@ -8959,3 +8959,7 @@ div.dn_arrow {
 .bookedge-all-text p{
     line-height: 1.1;
 }
+
+.title-hidden{
+    display: none;
+}

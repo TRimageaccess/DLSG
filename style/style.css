@@ -3546,3 +3546,7 @@ span.mildHL {
 #flashcontent {
     height: 100%;
 }
+
+.title-hidden{
+    display: none;
+}
