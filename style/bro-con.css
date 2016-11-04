@@ -48,7 +48,7 @@ h1.block-tag {
     color: #333;
     z-index: 10;
 }
-
+.brochure-block h2.block-title-sub_h2,
 .brochure-block h1.block-title-sub {
     margin: -15px .3em 25px 2em;
     font-size: 225%;
@@ -171,8 +171,9 @@ h1.block-tag {
 .scanner-label {
     margin-left: 175px;
 }
-
+.scanner-label h1,
 .scanner-label p {
+    font-weight:normal;
     font-size: 200%;
     font-style: italic;
     color: #555;
@@ -909,18 +910,32 @@ div.dn_arrow {
     color: black;
 }
 
-#ILL-0102 {
+#ILL-01 #ILL-0102 {
     position: absolute;
     top: 781px;
     left: 105px;
     width: 755px;
+    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 43px;
+    color: black;
+    margin: 0;
 }
 
-#ILL-0103 {
+#ILL-01 #ILL-0103 {
     position: absolute;
     top: 825px;
     left: 280px;
     width: 805px;
+    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 43px;
+    color: black;
+    margin: 0;
 }
 
 #ILL-01 h2.block-title-sub {
@@ -1064,7 +1079,7 @@ div.dn_arrow {
     left: 771px;
     width: 125px;
 }
-
+#ILL-02 h2.block-title_h2,
 #ILL-02 h1.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
@@ -1073,6 +1088,7 @@ div.dn_arrow {
     font-size: 42px;
     color: black;
     line-height: 90%;
+    margin: 0 0 0.5em 0;
 }
 
 #ILL-0210 {
@@ -1080,6 +1096,13 @@ div.dn_arrow {
     top: 313px;
     left: 290px;
     width: 770px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 42px;
+    color: black;
+    line-height: 90%;
+    margin: 0 0 0.5em 0;
 }
 
 #ILL-02 p.block_text4 {
@@ -1277,6 +1300,7 @@ div.dn_arrow {
     width: 505px;
 }
 
+#ILL-03 h2.block-title_h2,
 #ILL-03 h1.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
@@ -1285,6 +1309,7 @@ div.dn_arrow {
     font-size: 41px;
     color: black;
     line-height: 100%;
+    margin: 0 0 0.5em 0;
 }
 
 #ILL-0301 {
@@ -1483,6 +1508,7 @@ div.dn_arrow {
     width: 100px;
 }
 
+#ILL-04 h2.block-title_h2,
 #ILL-04 h1.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
@@ -1491,6 +1517,7 @@ div.dn_arrow {
     font-size: 41px;
     color: black;
     line-height: 100%;
+    margin: 0 0 0.5em 0;
 }
 
 #ILL-0401 {
@@ -1676,6 +1703,7 @@ div.dn_arrow {
     width: 470px;
 }
 
+#ILL-06 h2.block-title_h2,
 #ILL-06 h1.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
@@ -1683,6 +1711,7 @@ div.dn_arrow {
     font-style: normal;
     font-size: 41px;
     color: black;
+    margin: 0 0 0.5em 0;
     line-height: 100%;
 }
 
@@ -1842,7 +1871,7 @@ div.dn_arrow {
     font-weight: normal;
     line-height: 110%;
 }
-
+#ILL-07 h2.block-title_h2,
 #ILL-07 h1.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
@@ -1851,6 +1880,7 @@ div.dn_arrow {
     font-size: 42px;
     color: black;
     line-height: 100%;
+    margin: 0 0 0.5em 0;
 }
 
 #ILL-0701 {
@@ -1928,7 +1958,7 @@ div.dn_arrow {
     width: 236px;
 }
 
-#ILL-07 h1.block-title2 {
+#ILL-07 h2.block-title2 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1936,6 +1966,7 @@ div.dn_arrow {
     font-size: 32px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0707 {
@@ -2222,7 +2253,7 @@ div.dn_arrow {
     width: 220px;
 }
 
-#ILL-08 h1.block-title2 {
+#ILL-08 h2.block-title2 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
@@ -2230,6 +2261,7 @@ div.dn_arrow {
     font-size: 30px;
     color: black;
     line-height: 110%;
+    margin: 0;
 }
 
 #ILL-0810 {
@@ -2278,13 +2310,14 @@ div.dn_arrow {
     width: 105px;
 }
 
-#ILL-08 h1.block-title3 {
+#ILL-08 h2.block-title3 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
     font-style: normal;
     font-size: 28px;
     color: black;
+    margin: 0;
     line-height: 110%;
 }
 
