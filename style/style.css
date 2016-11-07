@@ -1847,7 +1847,7 @@ td {
     left: 365px;
     width: 800px;
 }
-
+#quote-016 .title-h2,
 #quote-016 h1 {
     font-style: italic;
     font-weight: 900;
@@ -1877,7 +1877,7 @@ td {
     left: 550px;
     width: 450px;
 }
-
+#quote-018 .title-h2,
 #quote-018 h1 {
     font-style: italic;
     font-weight: 900;
@@ -1896,6 +1896,7 @@ td {
     width: 400px;
 }
 
+#quote-019 .title-h2,
 #quote-019 h1 {
     font-style: italic;
     font-weight: 900;
@@ -1914,6 +1915,7 @@ td {
     width: 700px;
 }
 
+#quote-020 .title-h2,
 #quote-020 h1 {
     font-style: italic;
     font-weight: 900;
@@ -1944,6 +1946,7 @@ td {
     width: 700px;
 }
 
+#quote-022 .title-h2,
 #quote-022 h1 {
     font-style: normal;
     font-weight: 900;
@@ -2065,7 +2068,7 @@ td {
     left: 450px;
     width: 700px;
 }
-
+#quote-031 .title-h2,
 #quote-031 h1 {
     font-style: italic;
     font-weight: 900;
@@ -2073,6 +2076,7 @@ td {
     line-height: 100%;
 }
 
+#quote-031 .title-h2.shift,
 #quote-031 h1.shift {
     font-style: italic;
     font-weight: 900;
@@ -2151,6 +2155,7 @@ td {
     width: 980px;
 }
 
+#quote-037 .title-h2,
 #quote-037 h1 {
     font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
@@ -2186,6 +2191,7 @@ td {
     width: 300px;
 }
 
+#quote-039 .title-h2,
 #quote-039 h1 {
     font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;

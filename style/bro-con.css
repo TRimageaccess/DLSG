@@ -39,7 +39,7 @@ h1.block-tag {
     border-radius: 5px;
     z-index: 0;
 }
-
+.brochure-block h2.block-title_h2-kic,
 .brochure-block h1.block-title {
     margin: 0 0 0.5em 0;
     font-size: 300%;
@@ -440,13 +440,22 @@ div.dn_arrow {
     padding-top: 10px;
 }
 
+#K-05 h2.block-title,
 #K-05 h1.block-title {
+    margin: 0 0 0.5em 0;
     margin-left: 200px;
     text-align: left;
     width: 800px;
+    font-size: 300%;
+    line-height: 1.2em;
+    color: #333;
+    z-index: 10;
 }
-
+#K-05 h2.block-title-sub,
 #K-05 h1.block-title-sub {
+    margin: -15px .3em 25px 2em;
+    font-size: 225%;
+    color: #666;
     margin-left: 200px;
     margin-top: -15px;
     text-align: left;
@@ -3208,7 +3217,8 @@ div.dn_arrow {
     font-weight: bold;
     text-align: center;
     color: black;
-    line-height: 100%
+    line-height: 100%;
+    margin:0;
 }
 
 #BE-01 p.block_text2 {
@@ -3265,7 +3275,7 @@ div.dn_arrow {
     width: 175px;
 }
 
-#BE-0201 {
+#BE-02 #BE-0201 {
     position: absolute;
     top: 35px;
     left: -10px;
@@ -3274,6 +3284,7 @@ div.dn_arrow {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-02 p.block_text {
@@ -3290,7 +3301,7 @@ div.dn_arrow {
     width: 1037px;
 }
 
-#BE-0203 {
+#BE-02 #BE-0203 {
     position: absolute;
     top: 611px;
     left: 0;
@@ -3299,6 +3310,7 @@ div.dn_arrow {
     font-size: 33px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-02 h2 {
@@ -3415,6 +3427,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-0302 {
@@ -3513,6 +3526,7 @@ div.dn_arrow {
     font-size: 41px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-0402 {
@@ -3935,6 +3949,7 @@ div.dn_arrow {
 }
 
 #BE-0601 {
+    margin: 0;
     position: absolute;
     top: 33px;
     left: 308px;
@@ -4062,6 +4077,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-0613 {
@@ -4165,7 +4181,7 @@ div.dn_arrow {
     text-align: right;
 }
 
-#BE-0801 {
+#BE-08 #BE-0801 {
     position: absolute;
     top: 32px;
     left: 42px;
@@ -4173,6 +4189,7 @@ div.dn_arrow {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
     font-weight: bold;
+    margin: 0;
     text-align: left;
 }
 
@@ -4410,6 +4427,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-0902 {
@@ -4477,6 +4495,7 @@ div.dn_arrow {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 40px;
     font-weight: bold;
+    margin: 0;
     text-align: left;
 }
 
@@ -4588,6 +4607,7 @@ div.dn_arrow {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE-11 p.block_text1 {
@@ -4651,6 +4671,7 @@ div.dn_arrow {
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    margin: 0;
 }
 
 #BE-12 p.block_text1 {
@@ -8982,7 +9003,7 @@ div.dn_arrow {
 }
 
 /*bookedge*/
-.block-title--bookedge{
+.brochure-block .block-title--bookedge{
     position: absolute;
     top: 30px;
     left: 0;
@@ -8991,6 +9012,7 @@ div.dn_arrow {
     font-size: 41px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 .sub-title-bookedge{
