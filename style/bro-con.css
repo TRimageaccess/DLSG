@@ -7035,6 +7035,7 @@ div.dn_arrow {
     font-size: 46px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-01 p.block_text {
@@ -7076,7 +7077,7 @@ div.dn_arrow {
     font-weight: bold
 }
 
-#BE4-0201 {
+#BE4-02 #BE4-0201 {
     position: absolute;
     top: 32px;
     left: -15px;
@@ -7085,6 +7086,7 @@ div.dn_arrow {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-02 p.block_text {
@@ -7102,7 +7104,7 @@ div.dn_arrow {
     font-weight: bold;
 }
 
-#BE4-0203 {
+#BE4-02 #BE4-0203 {
     position: absolute;
     top: 611px;
     left: 0;
@@ -7111,6 +7113,7 @@ div.dn_arrow {
     font-size: 33px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-02 h2 {
@@ -7234,6 +7237,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0302 {
@@ -7330,7 +7334,7 @@ div.dn_arrow {
     line-height: 110%;
 }
 
-#BE4-0401 {
+#BE4-04 #BE4-0401 {
     position: absolute;
     top: 32px;
     left: 42px;
@@ -7339,6 +7343,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0402 {
@@ -7512,7 +7517,7 @@ div.dn_arrow {
     text-align: center;
 }
 
-#BE4-0501 {
+#BE4-05 #BE4-0501 {
     position: absolute;
     top: 34px;
     left: 0;
@@ -7521,6 +7526,7 @@ div.dn_arrow {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-05 h2 {
@@ -7627,7 +7633,7 @@ div.dn_arrow {
     width: 180px;
 }
 
-#BE4-0511 {
+#BE4-05 #BE4-0511 {
     position: absolute;
     top: 1032px;
     left: -20px;
@@ -7636,6 +7642,7 @@ div.dn_arrow {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-05 p.block_text12 {
@@ -7682,7 +7689,7 @@ div.dn_arrow {
     width: 330px;
 }
 
-#BE4-0601 {
+#BE4-06 #BE4-0601 {
     position: absolute;
     top: 41px;
     left: 468px;
@@ -7691,6 +7698,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0602 {
@@ -7779,7 +7787,7 @@ div.dn_arrow {
     text-align: right;
 }
 
-#BE4-0701 {
+#BE4-07 #BE4-0701 {
     position: absolute;
     top: 40px;
     left: 283px;
@@ -7788,6 +7796,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0702 {
@@ -7801,7 +7810,8 @@ div.dn_arrow {
     font-weight: bold;
 }
 
-#BE4-0703 {
+#BE4-07 #BE4-0703 {
+    margin: 0;
     position: absolute;
     top: 40px;
     left: 547px;
@@ -7856,6 +7866,7 @@ div.dn_arrow {
     font-size: 31px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0709 {
@@ -7878,6 +7889,7 @@ div.dn_arrow {
     font-size: 31px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0711 {
@@ -7888,6 +7900,7 @@ div.dn_arrow {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 31px;
     font-weight: bold;
+    margin: 0;
     text-align: left;
 }
 
@@ -7903,6 +7916,7 @@ div.dn_arrow {
 }
 
 #BE4-0713 {
+    margin: 0;
     position: absolute;
     top: 957px;
     left: 215px;
@@ -7964,6 +7978,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0802 {
@@ -8187,6 +8202,7 @@ div.dn_arrow {
 }
 
 #BE4-0901 {
+    margin: 0;
     position: absolute;
     top: 33px;
     left: 0;
@@ -8335,6 +8351,7 @@ div.dn_arrow {
 }
 
 #BE4-0917 {
+    margin: 0;
     position: absolute;
     top: 1038px;
     left: 40px;
@@ -8378,6 +8395,7 @@ div.dn_arrow {
 }
 
 #BE4-1001 {
+    margin: 0;
     position: absolute;
     top: 325px;
     left: 54px;
@@ -8488,6 +8506,7 @@ div.dn_arrow {
 }
 
 #BE4-1101 {
+    margin: 0;
     position: absolute;
     top: 38px;
     left: 0;
@@ -8867,6 +8886,7 @@ div.dn_arrow {
     font-size: 41px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-12 p.block_text31 {
