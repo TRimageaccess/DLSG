@@ -2445,6 +2445,7 @@ div.dn_arrow {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 46px;
     text-align: center;
+    color: #333;
 }
 
 #WF-0105 {
@@ -2583,12 +2584,14 @@ div.dn_arrow {
 }
 
 #WF-0301 {
+    color: #333;
     position: absolute;
     top: 33px;
     width: inherit;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 43px;
     text-align: center;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -2736,6 +2739,8 @@ div.dn_arrow {
     font-size: 43px;
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    color: #333;
 }
 
 #WF-0321 {
@@ -2783,6 +2788,8 @@ div.dn_arrow {
     font-size: 43px;
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    color: #333;
 }
 
 #WF-0402 {
@@ -2923,6 +2930,8 @@ div.dn_arrow {
 }
 
 #WF-0501 {
+    color: #333;
+    margin: 0;
     position: absolute;
     top: 34px;
     width: inherit;
@@ -2954,6 +2963,8 @@ div.dn_arrow {
 }
 
 #WF-0505 {
+    margin: 0;
+    color: #333;
     position: absolute;
     top: 755px;
     width: inherit;
@@ -2992,6 +3003,8 @@ div.dn_arrow {
 }
 
 #WF-0601 {
+    margin: 0;
+    color: #333;
     position: absolute;
     top: 34px;
     width: inherit;
