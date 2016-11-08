@@ -1849,7 +1849,7 @@ td {
 }
 
 #quote-016 h1 {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: 900;
     font-size: 27pt;
 }
@@ -1879,13 +1879,13 @@ td {
 }
 
 #quote-018 h1 {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: 900;
     font-size: 27pt;
 }
 
 #quote-018 p {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: normal;
     font-size: 11pt;
 }
@@ -1897,20 +1897,20 @@ td {
 }
 
 #quote-019 h1 {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: 900;
     font-size: 27pt;
 }
 
 #quote-019 p {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: normal;
     font-size: 11pt;
 }
 
-#quote-020 {
-    top: 60px;
-    left: 450px;
+    #quote-020 {
+        top: 60px;
+        left: 450px;
     width: 700px;
 }
 

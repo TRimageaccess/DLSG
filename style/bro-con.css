@@ -6574,9 +6574,9 @@ div.dn_arrow {
 
 #CCM-1125 {
     position: absolute;
-    top: 778px;
+    top: 771px;
     left: 238px;
-    width: 120px;
+    width: 210px;
 }
 
 #CCM-1126 {
@@ -6588,9 +6588,9 @@ div.dn_arrow {
 
 #CCM-1127 {
     position: absolute;
-    top: 778px;
+    top: 771px;
     left: 832px;
-    width: 120px;
+    width: 210px;
 }
 
 #CCM-1128 {
@@ -8958,4 +8958,9 @@ div.dn_arrow {
 
 .bookedge-all-text p{
     line-height: 1.1;
+}
+
+.container .brochure-block-wrap #CCM-11 .power-kic-click{
+    font-size: 13px;
+    line-height: 14px;
 }
