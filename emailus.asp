@@ -1,11 +1,28 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="-1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+          content="Image Access, KIC, DLSG.COM, DLSG, Landing Page, ImageAccess main page, Bookeye 4 V3, Bookeye 4 V2, Bookeye 4 V1,
+          WideTEK 12, WideTEK 25, WideTEK 36, WideTEK 36C, WideTEK 48C, WideTEK 44, WideTEK 48, WideTEK 36DS, Bookeye 4 V1-C35,
+          BSCAN Software Family, Hybrid Library Technology, Business Automation, BSCAN ILL Article Scanning Software,
+          BSCAN DE High Speed Data Entry, BSCAN IP Automated Image Processing, BSCAN FP Automated Forms Processing, BSCAN Standard Production Capture,
+          The Digitization Advisors, The Service & Support Team, Global Service Areas, Contact Service Department,
+          ImageAccess Customers, USER GALLERY, The Digitization Advisory Team, White Papers, EXPERTISE, Open/Check a Service Ticket,
+          ImageAccess CONTACT US, Build Your BSCAN ILL System, Build Your KIC System, how to order scanner, Check Order Status,
+          Serving Public Libraries Across America, Serving 60% of Students at US Universities, Digital Document Delivery Products,
+          Archival Preservation, Self-serve Ad Hoc Digitization Kiosks, KIC Click Mini, KIC Click, THE KIC PRODUCT FAMILY,
+          ImageAccess News & Events, High volume Forms Processing, Custom Scanning Application, Image Access Site Map, SERVICE & SUPPORT,
+          ImageAccess Stacks View, POD, KAT, Knowledge Access Tool, Print on Demand, DLOS, digitize photos, ImageAccess Inc. 2016,
+          Scanner for medicine, Scanner for library, Scanner for librarian, Scanner for study, ImageAccess white papers,
+          Scanner for Financial, Scanner for Transportation, ImageAccess Locations, ImageAccess site, Scanner for Manufacturing,
+          Scanner for Distribution, Scanner for government, wide format scanner, library, librarians, bscan, widetek, software, bookeye, scanners, service,
+          digitization, opus">
+    <meta name="author" content="DLSG">
     <title>Digital Library Systems Group</title>
     <link href="style/style.css" rel="stylesheet" type="text/css" />
     <link href="style/bro-con.css" rel="stylesheet" type="text/css" />
@@ -21,7 +38,7 @@
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img src="http://upload.ted-kteam.com/DLSG/images/DSLG and IA Logos.jpg" alt="">
+  <img src="http://upload.ted-kteam.com/DLSG/images/DSLG and IA Logos.jpg" alt="DSLG and IA Logos">
   <p class="support-address-1"> Digital Library Systems Group </p>
   <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
   <p> Telephone: (561) 995-6939 <br>
@@ -29,11 +46,12 @@
       Email: <a href="mailto:support@dlsg.net">support@dlsg.net</a>
   </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
-  <img src="http://upload.ted-kteam.com/DLSG/images/Collage_3_Products.jpg" alt="" width="300">
+  <img src="http://upload.ted-kteam.com/DLSG/images/Collage_3_Products.jpg" alt="Collage 3 Products" width="300">
  </div>
 
 <div class="page-title">
  <h1> Contact Support </h1>
+ <h2 class="title-hidden">DLSG - Email Us</h2>
 </div>
 
 <div class="formset">
