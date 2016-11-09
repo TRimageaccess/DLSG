@@ -4,100 +4,100 @@
     font-family: 'LatoBlack';
     src: url('../fonts/LatoBlack.eot');
     src: url('../fonts/LatoBlack.eot') format('embedded-opentype'),
-         url('../fonts/LatoBlack.woff2') format('woff2'),
-         url('../fonts/LatoBlack.woff') format('woff'),
-         url('../fonts/LatoBlack.ttf') format('truetype'),
-         url('../fonts/LatoBlack.svg#LatoBlack') format('svg')
+    url('../fonts/LatoBlack.woff2') format('woff2'),
+    url('../fonts/LatoBlack.woff') format('woff'),
+    url('../fonts/LatoBlack.ttf') format('truetype'),
+    url('../fonts/LatoBlack.svg#LatoBlack') format('svg')
 }
 
 @font-face {
     font-family: 'LatoBlackItalic';
     src: url('../fonts/LatoBlackItalic.eot');
     src: url('../fonts/LatoBlackItalic.eot') format('embedded-opentype'),
-         url('../fonts/LatoBlackItalic.woff2') format('woff2'),
-         url('../fonts/LatoBlackItalic.woff') format('woff'),
-         url('../fonts/LatoBlackItalic.ttf') format('truetype'),
-         url('../fonts/LatoBlackItalic.svg#LatoBlackItalic') format('svg')
+    url('../fonts/LatoBlackItalic.woff2') format('woff2'),
+    url('../fonts/LatoBlackItalic.woff') format('woff'),
+    url('../fonts/LatoBlackItalic.ttf') format('truetype'),
+    url('../fonts/LatoBlackItalic.svg#LatoBlackItalic') format('svg')
 }
 
 @font-face {
     font-family: 'LatoBold';
     src: url('../fonts/LatoBold.eot');
     src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
-         url('../fonts/LatoBold.woff2') format('woff2'),
-         url('../fonts/LatoBold.woff') format('woff'),
-         url('../fonts/LatoBold.ttf') format('truetype'),
-         url('../fonts/LatoBold.svg#LatoBold') format('svg')
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff'),
+    url('../fonts/LatoBold.ttf') format('truetype'),
+    url('../fonts/LatoBold.svg#LatoBold') format('svg')
 }
 
 @font-face {
     font-family: 'LatoBoldItalic';
     src: url('../fonts/LatoBoldItalic.eot');
     src: url('../fonts/LatoBoldItalic.eot') format('embedded-opentype'),
-         url('../fonts/LatoBoldItalic.woff2') format('woff2'),
-         url('../fonts/LatoBoldItalic.woff') format('woff'),
-         url('../fonts/LatoBoldItalic.ttf') format('truetype'),
-         url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg')
+    url('../fonts/LatoBoldItalic.woff2') format('woff2'),
+    url('../fonts/LatoBoldItalic.woff') format('woff'),
+    url('../fonts/LatoBoldItalic.ttf') format('truetype'),
+    url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg')
 }
 
 @font-face {
     font-family: 'LatoHairline';
     src: url('../fonts/LatoHairline.eot');
     src: url('../fonts/LatoHairline.eot') format('embedded-opentype'),
-         url('../fonts/LatoHairline.woff2') format('woff2'),
-         url('../fonts/LatoHairline.woff') format('woff'),
-         url('../fonts/LatoHairline.ttf') format('truetype'),
-         url('../fonts/LatoHairline.svg#LatoHairline') format('svg')
+    url('../fonts/LatoHairline.woff2') format('woff2'),
+    url('../fonts/LatoHairline.woff') format('woff'),
+    url('../fonts/LatoHairline.ttf') format('truetype'),
+    url('../fonts/LatoHairline.svg#LatoHairline') format('svg')
 }
 
 @font-face {
     font-family: 'LatoHairlineItalic';
     src: url('../fonts/LatoHairlineItalic.eot');
     src: url('../fonts/LatoHairlineItalic.eot') format('embedded-opentype'),
-         url('../fonts/LatoHairlineItalic.woff2') format('woff2'),
-         url('../fonts/LatoHairlineItalic.woff') format('woff'),
-         url('../fonts/LatoHairlineItalic.ttf') format('truetype'),
-         url('../fonts/LatoHairlineItalic.svg#LatoHairlineItalic') format('svg')
+    url('../fonts/LatoHairlineItalic.woff2') format('woff2'),
+    url('../fonts/LatoHairlineItalic.woff') format('woff'),
+    url('../fonts/LatoHairlineItalic.ttf') format('truetype'),
+    url('../fonts/LatoHairlineItalic.svg#LatoHairlineItalic') format('svg')
 }
 
 @font-face {
     font-family: 'LatoItalic';
     src: url('../fonts/LatoItalic.eot');
     src: url('../fonts/LatoItalic.eot') format('embedded-opentype'),
-         url('../fonts/LatoItalic.woff2') format('woff2'),
-         url('../fonts/LatoItalic.woff') format('woff'),
-         url('../fonts/LatoItalic.ttf') format('truetype'),
-         url('../fonts/LatoItalic.svg#LatoItalic') format('svg')
+    url('../fonts/LatoItalic.woff2') format('woff2'),
+    url('../fonts/LatoItalic.woff') format('woff'),
+    url('../fonts/LatoItalic.ttf') format('truetype'),
+    url('../fonts/LatoItalic.svg#LatoItalic') format('svg')
 }
 
 @font-face {
     font-family: 'LatoLight';
     src: url('../fonts/LatoLight.eot');
     src: url('../fonts/LatoLight.eot') format('embedded-opentype'),
-         url('../fonts/LatoLight.woff2') format('woff2'),
-         url('../fonts/LatoLight.woff') format('woff'),
-         url('../fonts/LatoLight.ttf') format('truetype'),
-         url('../fonts/LatoLight.svg#LatoLight') format('svg')
+    url('../fonts/LatoLight.woff2') format('woff2'),
+    url('../fonts/LatoLight.woff') format('woff'),
+    url('../fonts/LatoLight.ttf') format('truetype'),
+    url('../fonts/LatoLight.svg#LatoLight') format('svg')
 }
 
 @font-face {
     font-family: 'LatoLightItalic';
     src: url('../fonts/LatoLightItalic.eot');
     src: url('../fonts/LatoLightItalic.eot') format('embedded-opentype'),
-         url('../fonts/LatoLightItalic.woff2') format('woff2'),
-         url('../fonts/LatoLightItalic.woff') format('woff'),
-         url('../fonts/LatoLightItalic.ttf') format('truetype'),
-         url('../fonts/LatoLightItalic.svg#LatoLightItalic') format('svg')
+    url('../fonts/LatoLightItalic.woff2') format('woff2'),
+    url('../fonts/LatoLightItalic.woff') format('woff'),
+    url('../fonts/LatoLightItalic.ttf') format('truetype'),
+    url('../fonts/LatoLightItalic.svg#LatoLightItalic') format('svg')
 }
 
 @font-face {
     font-family: 'LatoRegular';
     src: url('../fonts/LatoRegular.eot');
     src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
-         url('../fonts/LatoRegular.woff2') format('woff2'),
-         url('../fonts/LatoRegular.woff') format('woff'),
-         url('../fonts/LatoRegular.ttf') format('truetype'),
-         url('../fonts/LatoRegular.svg#LatoRegular') format('svg')
+    url('../fonts/LatoRegular.woff2') format('woff2'),
+    url('../fonts/LatoRegular.woff') format('woff'),
+    url('../fonts/LatoRegular.ttf') format('truetype'),
+    url('../fonts/LatoRegular.svg#LatoRegular') format('svg')
 }
 
 html, body {
@@ -127,8 +127,7 @@ p {
 }
 
 .caption {
-    font-size: 90%;
-    font-style: italic;
+    font: 90% 'LatoItalic', sans-serif;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
@@ -139,12 +138,11 @@ span.redflag {
 }
 
 span.emphasis {
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'LatoBoldItalic', sans-serif;
 }
 
 span.slanty {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif;
 }
 
 .mint {
@@ -182,8 +180,7 @@ hr {
 
 .page-title h1 {
     text-align: center;
-    font-size: 200%;
-    font-style: italic;
+    font: 200% 'LatoItalic', sans-serif;
 }
 
 .container {
@@ -229,8 +226,7 @@ hr {
 .f5-tab-wrap, .g5-tab-wrap {
     position: relative;
     display: block;
-    margin: 0;
-    margin-top: -130px;
+    margin: -130px 0 0;
     height: 140px;
     padding: 0;
     clear: left;
@@ -303,7 +299,6 @@ hr {
     margin: 0 5px;
     line-height: 18px;
     font-size: 16px;
-    text-align: center;
     text-shadow: 2px 2px 3px #ccc;
 }
 
@@ -316,10 +311,7 @@ hr {
 .f5-pane, .g5-pane {
     width: 1200px;
     height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
     border: 0 solid #888;
@@ -390,9 +382,7 @@ hr {
 }
 
 .pane_text_overlay ul li {
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png);
-    background-repeat: no-repeat;
-    background-position: 0 15px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png) no-repeat 0 15px;
     padding-left: 24px;
 }
 
@@ -408,22 +398,15 @@ hr {
 }
 
 .pane_text_overlay2 ul {
-    font: 14px 'Lato', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 185%;
+    font: 185%/30px 'LatoBoldItalic', sans-serif;
     text-align: left;
-    padding: 4px;
-    line-height: 30px;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .pane_text_overlay2 ul li {
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png);
-    background-repeat: no-repeat;
-    background-position: 0 10px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png) no-repeat 0 10px;
     padding-left: 24px;
 }
 
@@ -439,22 +422,15 @@ hr {
 }
 
 .pane_text_overlay3 ul {
-    font: 14px 'Lato', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 170%;
+    font: 170%/38px 'LatoBoldItalic', sans-serif;
     text-align: left;
-    padding: 4px;
-    line-height: 38px;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .pane_text_overlay3 ul li {
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png);
-    background-repeat: no-repeat;
-    background-position: 0 10px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/blue-bullet.png) no-repeat 0 10px;
     padding-left: 24px;
 }
 
@@ -464,19 +440,15 @@ hr {
 }
 
 .pane_text_overlay.quote p {
-    font-size: 140%;
+    font: 140% 'LatoBoldItalic', sans-serif;
     text-align: left;
     padding: 4px;
-    font-style: italic;
-    font-weight: bold;
 }
 
 .pane_text_overlay.quote p.attrib {
     font-size: 110%;
     text-align: right;
     padding: 4px;
-    font-style: normal;
-    font-weight: normal;
 }
 
 .pane_text_overlay.quote.centered_quote p {
@@ -636,13 +608,11 @@ div.family-list-label {
 
 h2.family-list, h2.mint {
     right: 50%;
-    background: #fff;
     padding: 0 10px;
     font-size: 180%;
     line-height: 120%;
-    /* font-style:italic;text-decoration:underline;*/
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
-    background-color: #fff;
+    background: #fff;
 }
 
 h3.family-list, h3.mint {
@@ -651,7 +621,6 @@ h3.family-list, h3.mint {
     margin-bottom: .5em;
     font-size: 150%;
     line-height: 120%;
-    /* font-style:italic;text-decoration:none;*/
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
@@ -661,8 +630,6 @@ h3.peppermint {
     margin-bottom: .5em;
     font-size: 150%;
     line-height: 120%;
-    /* font-style:italic;text-decoration:none;*/
-    text-shadow: none;
     text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0 1px 2px #8ad, 0 0 1px #8ad;
 }
 
@@ -705,9 +672,7 @@ div.family-list li a p {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 4px;
     padding: 4px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font:100%/20px 'LatoBold',sans-serif;
     border: 1px solid #888;
     border-radius: 4px;
     text-align: center;
@@ -748,9 +713,8 @@ div.family-list li a:hover p {
 }
 
 .w3c td {
-    font-size: 12px;
     color: #333;
-    font-style: italic;
+    font: 12px 'LatoItalic', sans-serif;
     border: 0;
     background-color: #fff;
 }
@@ -780,9 +744,7 @@ ul.copyright li.copy a {
     margin-top: 5px;
     margin-left: 100px;
     width: 1100px;
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/family-scan.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    background: url(http://upload.ted-kteam.com/DLSG/images/family-scan.png) no-repeat 0 0;
     font: 14px 'Lato', sans-serif;
 }
 
@@ -801,9 +763,7 @@ ul.copyright li.copy a {
 #about_logo {
     width: 350px;
     height: 105px;
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    background: url(http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png) no-repeat 0 0;
     margin: 20px 10px;
     float: left;
     clear: right;
@@ -990,8 +950,7 @@ ul.copyright li.copy a {
     text-align: center;
     width: 553px;
     height: 255px;
-    border-style: solid;
-    border-width: 0;
+    border: 0 solid;
 }
 
 .support-address {
@@ -1010,8 +969,7 @@ ul.copyright li.copy a {
 }
 
 .support-address .support-address-1 {
-    font-size: 18px;
-    font-weight: bold;
+    font:18px 'LatoBold',sans-serif;
     margin-top: 18px;
     margin-bottom: 0;
 }
@@ -1066,8 +1024,7 @@ ul.copyright li.copy a {
     text-align: center;
     width: 380px;
     height: 270px;
-    border-style: solid;
-    border-width: 0;
+    border: 0 solid;
 }
 
 .support-triple {
@@ -1185,8 +1142,7 @@ h2.ov_title {
 
 .mid-panel ul {
     margin: 10px 25px;
-    list-style-type: square;
-    list-style-image: url(http://upload.ted-kteam.com/DLSG/images/green-bullet.png);
+    list-style: square url(http://upload.ted-kteam.com/DLSG/images/green-bullet.png);
 }
 
 .mid-panel p {
@@ -1210,11 +1166,8 @@ tr {
 
 th {
     color: #000;
-    background-color: #ccc;
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/greengreenstrip.png);
-    background-repeat: repeat-x;
-    font-weight: bold;
-    font-size: 110%;
+    background: #ccc url(http://upload.ted-kteam.com/DLSG/images/greengreenstrip.png) repeat-x;
+    font: 110% 'LatoBold', sans-serif;
     padding: .4em 5px .2em 5px;
 }
 
@@ -1320,35 +1273,28 @@ td {
 }
 
 #kic_pane_popular_01 p {
-    font-style: italic;
-    font-size: 150%;
+    font: 150%/1.7rem 'LatoItalic', sans-serif;
     color: #000;
-    line-height: 1.7em;
 }
 
 #kic_pane_popular_02 p {
-    font-style: italic;
-    font-size: 80%;
+    font: 80% 'LatoItalic', sans-serif;
     color: #000;
 }
 
 #kic_pane_easy_01 p {
-    font-style: italic;
-    font-size: 250%;
+    font: 250% 'LatoItalic', sans-serif;
     color: #000;
 }
 
 #kic_pane_easy_02 p {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 150%;
+    font: 150% 'LatoBoldItalic', sans-serif;
     color: #afa;
     padding: 8px;
 }
 
 #kic_pane_versatile_01 p {
-    font-style: italic;
-    font-size: 150%;
+    font: 150% 'LatoItalic', sans-serif;
     color: #f00;
 }
 
@@ -1500,10 +1446,7 @@ td {
 }
 
 .pane_text_overlay.quote.opus_bar p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 9pt;
+    font: 9pt "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.opus_block {
@@ -1511,11 +1454,7 @@ td {
 }
 
 .pane_text_overlay.quote.opus_block p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 8pt;
-    line-height: 100%;
+    font: 8pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag {
@@ -1523,231 +1462,121 @@ td {
 }
 
 .pane_text_overlay.quote.product_tag p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14pt;
-    line-height: 100%;
+    font: 14pt/100% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag2 p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17pt;
-    line-height: 100%;
+    font: 17pt/100% 'LatoBold', sans-serif;
     color: #555;
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 .pane_text_overlay.quote.product_tag3 p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10pt;
-    line-height: 100%;
+    font: 10pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 h1 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 84pt;
-    line-height: 100%;
+    font: 84pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25pt;
-    line-height: 100%;
+    font: 25pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 sup {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15pt;
-    line-height: 100%;
+    font: 15pt/100% "Lato", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag4 h2 {
-    font-style: italic;
-    font-size: 34pt;
-    line-height: 100%;
+    font: 34pt/100% 'LatoItalic', sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag5 p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10pt;
-    line-height: 100%;
+    font: 10pt/100% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag6 h1 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 69pt;
-    line-height: 100%;
+    font: 69pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag6 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 100%;
+    font: 23pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag7 h1 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 78pt;
-    line-height: 100%;
+    font: 78pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag7 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26pt;
-    line-height: 100%;
+    font: 26pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag8 h1 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 65pt;
-    line-height: 100%;
+    font: 65pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14pt;
-    line-height: 100%;
+    font: 14pt/100% "Lato", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 sup {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18pt;
-    line-height: 100%;
+    font: 18pt/100% "Lato", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 37.5pt;
-    line-height: 100%;
+    font: 37.5pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag h2 {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50pt;
-    line-height: 100%;
+    font: 50pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag2 h2 {
-    font: 14px 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 37pt;
-    line-height: 100%;
+    font: 37pt/100% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag2 p {
-    font: 14px 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 22pt;
-    line-height: 105%;
+    font: 22pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag3 p {
-    font: 14px 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 105%;
+    font: 23pt/105% 'LatoBoldItalic', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag4 p {
-    font: 14px "Lato", sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 105%;
+    font: 23pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag5 p {
-    font: 14px "Lato", sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18pt;
-    line-height: 105%;
+    font: 18pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag6 h2 {
-    font: 14px 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 34pt;
+    font: 34pt 'LatoBoldItalic', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag7 h2 {
-    font: 14px 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 21pt;
-    line-height: 95%;
+    font: 21pt/95% 'LatoBoldItalic', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag8 h2 {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22pt;
-    line-height: 95%;
+    font: 22pt/95% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag9 h1 {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80pt;
-    line-height: 95%;
+    font: 80pt/95% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag10 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22pt;
-    line-height: 105%;
+    font: 22pt/105% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag11 h2 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20pt;
-    line-height: 105%;
+    font: 20pt/105% 'LatoBold', sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag12 p {
-    font: 14px "Lato", sans-serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 15pt;
-    line-height: 105%;
+    font: 15pt/105% 'LatoBoldItalic', sans-serif;
 }
 
 #quote-001 {
@@ -1849,16 +1678,13 @@ td {
     left: 365px;
     width: 800px;
 }
+
 #quote-016 .title-h2,
 #quote-016 h1 {
-    font-family: 'LatoItalic', sans-serif;
-    font-weight: 900;
-    font-size: 27pt;
+    font: 27pt 'LatoBoldItalic', sans-serif;
 }
 
 #quote-016 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
 }
 
@@ -1869,8 +1695,6 @@ td {
 }
 
 #quote-017 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
 }
 
@@ -1879,17 +1703,14 @@ td {
     left: 550px;
     width: 450px;
 }
+
 #quote-018 .title-h2,
 #quote-018 h1 {
-    font-family: 'LatoItalic', sans-serif;
-    font-weight: 900;
-    font-size: 27pt;
+    font: 27pt 'LatoBoldItalic', sans-serif;
 }
 
 #quote-018 p {
-    font-family: 'LatoItalic', sans-serif;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt 'LatoItalic', sans-serif;
 }
 
 #quote-019 {
@@ -1900,34 +1721,26 @@ td {
 
 #quote-019 .title-h2,
 #quote-019 h1 {
-    font-family: 'LatoItalic', sans-serif;
-    font-weight: 900;
-    font-size: 27pt;
+    font: 27pt 'LatoBoldItalic', sans-serif;
 }
 
 #quote-019 p {
-    font-family: 'LatoItalic', sans-serif;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt 'LatoItalic', sans-serif;
 }
 
-    #quote-020 {
-        top: 60px;
-        left: 450px;
+#quote-020 {
+    top: 60px;
+    left: 450px;
     width: 700px;
 }
 
 #quote-020 .title-h2,
 #quote-020 h1 {
-    font-style: italic;
-    font-weight: 900;
-    font-size: 24pt;
+    font: 24pt 'LatoBoldItalic', sans-serif;
 }
 
 #quote-020 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt 'LatoItalic', sans-serif;
 }
 
 #quote-021 {
@@ -1937,9 +1750,7 @@ td {
 }
 
 #quote-021 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt 'LatoItalic', sans-serif;
 }
 
 #quote-022 {
@@ -1950,16 +1761,12 @@ td {
 
 #quote-022 .title-h2,
 #quote-022 h1 {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 600%;
-    line-height: 80px;
+    font: 600%/80px 'LatoBold', sans-serif;
+
 }
 
 #quote-022 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16pt;
+    font: 16pt 'LatoItalic', sans-serif;
 }
 
 #quote-023 {
@@ -1969,8 +1776,6 @@ td {
 }
 
 #quote-023 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 10pt;
 }
 
@@ -1981,8 +1786,6 @@ td {
 }
 
 #quote-024 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 10pt;
 }
 
@@ -1993,8 +1796,6 @@ td {
 }
 
 #quote-025 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 8pt;
 }
 
@@ -2005,8 +1806,6 @@ td {
 }
 
 #quote-026 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 12pt;
 }
 
@@ -2017,14 +1816,10 @@ td {
 }
 
 #quote-027 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 12pt;
 }
 
 #quote-027 p.star {
-    font-style: normal;
-    font-weight: normal;
     font-size: 8pt;
     margin-top: 8px;
 }
@@ -2036,8 +1831,6 @@ td {
 }
 
 #quote-028 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 8pt;
 }
 
@@ -2048,8 +1841,6 @@ td {
 }
 
 #quote-029 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 8pt;
 }
 
@@ -2060,8 +1851,6 @@ td {
 }
 
 #quote-030 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 8pt;
 }
 
@@ -2070,21 +1859,16 @@ td {
     left: 450px;
     width: 700px;
 }
+
 #quote-031 .title-h2,
 #quote-031 h1 {
-    font-style: italic;
-    font-weight: 900;
-    font-size: 27pt;
-    line-height: 100%;
+    font: 27pt/100% 'LatoBoldItalic', sans-serif;
 }
 
 #quote-031 .title-h2.shift,
 #quote-031 h1.shift {
-    font-style: italic;
-    font-weight: 900;
-    font-size: 27pt;
+    font: 27pt/100% 'LatoBoldItalic', sans-serif;
     margin-left: 150px;
-    line-height: 100%;
 }
 
 #quote-032 {
@@ -2094,8 +1878,6 @@ td {
 }
 
 #quote-032 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
     text-indent: 50px;
 }
@@ -2107,8 +1889,6 @@ td {
 }
 
 #quote-033 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 10pt;
 }
 
@@ -2119,8 +1899,6 @@ td {
 }
 
 #quote-034 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
     text-indent: 50px;
 }
@@ -2132,8 +1910,6 @@ td {
 }
 
 #quote-035 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
     text-indent: 50px;
 }
@@ -2145,8 +1921,6 @@ td {
 }
 
 #quote-036 p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 11pt;
     text-indent: 50px;
 }
@@ -2159,19 +1933,11 @@ td {
 
 #quote-037 .title-h2,
 #quote-037 h1 {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40pt;
-    line-height: 100%;
+    font: 40pt/100% "LatoBold", sans-serif;
 }
 
 #quote-037 p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20pt;
-    line-height: 100%;
+    font: 20pt/100% "LatoBold", sans-serif;
 }
 
 #quote-038 {
@@ -2181,10 +1947,7 @@ td {
 }
 
 #quote-038 p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23pt;
+    font: 23pt "LatoBold", sans-serif;
 }
 
 #quote-039 {
@@ -2195,21 +1958,13 @@ td {
 
 #quote-039 .title-h2,
 #quote-039 h1 {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 23pt;
+    font: 23pt/100% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-039 p {
-    font: 14px "Lato", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14pt;
+    font: 14pt/100% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-040 {
@@ -2643,12 +2398,8 @@ td {
 }
 
 #quote-115 p {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 38pt;
+    font: 38pt/100% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-116 {
@@ -2658,12 +2409,8 @@ td {
 }
 
 #quote-116 p {
-    font: 14px 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 38pt;
+    font: 38pt/100% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-117 {
@@ -2894,8 +2641,7 @@ div.cycle div {
 }
 
 #news_story_box p.news_location {
-    font-style: italic;
-    font-size: 110%;
+    font: 110% 'LatoItalic', sans-serif;
 }
 
 #news_story_box .close_btn {
@@ -2907,9 +2653,7 @@ div.cycle div {
     padding: 2px;
     border: 1px #333 solid;
     border-radius: 3px;
-    background: #a2b3a1;
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/greengreenstrip-text.png);
-    background-repeat: repeat-x;
+    background: #a2b3a1 url(http://upload.ted-kteam.com/DLSG/images/greengreenstrip-text.png) repeat-x;
     cursor: pointer;
 }
 
@@ -2988,8 +2732,7 @@ div.cycle div {
 }
 
 .news_header h2 {
-    font-size: 200%;
-    font-style: italic;
+    font: 200% 'LatoBoldItalic', sans-serif;
     text-align: center;
     text-decoration: none;
     margin: 5px 10px 15px 10px;
@@ -3070,8 +2813,7 @@ div.cycle div {
 }
 
 .event_header h2 {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoBoldItalic', sans-serif;
     text-align: center;
     text-decoration: none;
     margin: 2px 0 5px 0;
@@ -3144,8 +2886,7 @@ div.cycle div {
 }
 
 .event_content p.news_location {
-    font-style: italic;
-    font-size: 110%;
+    font: 110% 'LatoItalic', sans-serif;
 }
 
 .event_title {
@@ -3172,8 +2913,7 @@ div.cycle div {
 }
 
 .build-a-kic p {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoItalic', sans-serif;
     text-align: center;
     width: 670px;
     float: left;
@@ -3197,8 +2937,7 @@ div.cycle div {
 }
 
 #commentForm legend {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoItalic', sans-serif;
 }
 
 #commentForm h3 {
@@ -3254,14 +2993,14 @@ div.cycle div {
 }
 
 #commentForm em {
-    font-weight: bold;
+
+    font-family: "LatoBold", sans-serif;
     padding-right: 1em;
     vertical-align: top;
 }
 
 #show_postcard {
-    background-image: url(http://upload.ted-kteam.com/DLSG/images/invite-kic.jpg);
-    background-repeat: no-repeat;
+    background: url(http://upload.ted-kteam.com/DLSG/images/invite-kic.jpg) no-repeat;
     height: 1152px;
     width: 603px;
     margin-top: 10px;
@@ -3272,11 +3011,10 @@ div.cycle div {
 }
 
 #show_postcard_title {
+    font: 1.6em 'LatoBold', sans-serif;
     padding-top: 50px;
     padding-left: 330px;
-    font-size: 1.6em;
     color: #666666;
-    font-weight: bold;
 }
 
 #show_postcard_top_reg {
@@ -3297,8 +3035,7 @@ div.cycle div {
 #show_postcard_block_1b p {
     margin-top: 15px;
     padding-left: 160px;
-    font-family: Georgia, Times, serif;
-    font-size: 2.0em;
+    font: 2.0em Georgia, Times, serif;
     color: #fff;
     font-weight: bold;
     font-style: oblique;
@@ -3318,8 +3055,7 @@ div.cycle div {
 }
 
 #show_postcard_block_2a p {
-    font-size: 1.9em;
-    font-weight: bold;
+    font: 1.9em 'LatoBold', sans-serif;
 }
 
 #show_postcard_block_2b {
@@ -3349,11 +3085,8 @@ div.cycle div {
 }
 
 #show_postcard_privacy {
-    margin-top: 1px;
     width: 520px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 1px auto 10px;
 }
 
 #show_postcard_privacy .privacy_policy {
@@ -3363,10 +3096,9 @@ div.cycle div {
 }
 
 #show_postcard_privacy .privacy_policy_slanty p {
-    font-size: 0.9em;
     color: #336666;
     padding: 2px;
-    font-style: italic;
+    font: 0.9em 'LatoItalic', sans-serif;
 }
 
 .gallery-intro {
@@ -3390,7 +3122,7 @@ div.cycle div {
 
 span.mildHL {
     text-decoration: underline;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif;
 }
 
 #newsTicker {
@@ -3406,8 +3138,7 @@ span.mildHL {
     float: left;
     margin: 0;
     padding: 0;
-    font-size: 14pt;
-    font-style: italic;
+    font: 14pt "LatoItalic", sans-serif;
     color: #0000ff;
     white-space: nowrap;
 }
@@ -3479,9 +3210,7 @@ span.mildHL {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 2px 2px !important;
     padding: 4px 10px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font: 100%/20px 'LatoBold', sans-serif;
     border-radius: 4px;
     text-align: center;
     box-shadow: 1px 2px 1px 1px #ccc;
@@ -3528,9 +3257,7 @@ span.mildHL {
     background: -ms-linear-gradient(top, #c9eadb, #449a5a);
     background: linear-gradient(top, #c9eadb, #449a5a);
     padding: 4px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font: 100%/20px 'LatoBold', sans-serif;
     border: 1px solid #888;
     border-radius: 4px;
     text-align: center;
@@ -3555,6 +3282,6 @@ span.mildHL {
     height: 100%;
 }
 
-.title-hidden{
+.title-hidden {
     display: none;
 }
