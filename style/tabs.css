@@ -368,7 +368,7 @@ span.feature-label {
 }
 
 #product-content li {
-    font: 13.5px "Lato", sans-serif;
+    font: 13.5px/21px "Lato", sans-serif;
 }
 
 .product-techspec #click_label {

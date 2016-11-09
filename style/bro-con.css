@@ -854,10 +854,9 @@ div.dn_arrow {
 }
 
 #K-23 div.c02 h2.block-title {
+    font: 300%/96% 'LatoBold',sans-serif;
     text-align: center;
-    line-height: 96%;
     margin: 0 0 0.5em 0;
-    font-size: 300%;
     color: #333;
     z-index: 10;
 }

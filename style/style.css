@@ -1488,7 +1488,7 @@ td {
 }
 
 .pane_text_overlay.quote.product_tag4 h2 {
-    font: 34pt/100% 'LatoItalic', sans-serif;
+    font: 34pt/100% 'LatoBoldItalic', sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag5 p {
@@ -1685,7 +1685,7 @@ td {
 }
 
 #quote-016 p {
-    font-size: 11pt;
+    font: 11pt 'Lato', sans-serif;
 }
 
 #quote-017 {
@@ -1695,7 +1695,7 @@ td {
 }
 
 #quote-017 p {
-    font-size: 11pt;
+    font: 11pt 'Lato', sans-serif;
 }
 
 #quote-018 {
