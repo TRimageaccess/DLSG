@@ -1,8 +1,7 @@
 /*how to order*/
 .customers_map-title {
+    font:41px/43px 'LatoBold',sans-serif;
     text-align: center;
-    font-size: 41px;
-    line-height: 43px;
     padding: 20px;
 }
 .content-wrapper p {
