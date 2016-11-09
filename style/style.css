@@ -446,7 +446,7 @@ hr {
 }
 
 .pane_text_overlay.quote p.attrib {
-    font-size: 110%;
+    font: 110% 'Lato', sans-serif;
     text-align: right;
     padding: 4px;
 }
@@ -672,7 +672,7 @@ div.family-list li a p {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 4px;
     padding: 4px;
-    font:100%/20px 'LatoBold',sans-serif;
+    font: 100%/20px 'LatoBold', sans-serif;
     border: 1px solid #888;
     border-radius: 4px;
     text-align: center;
@@ -969,7 +969,7 @@ ul.copyright li.copy a {
 }
 
 .support-address .support-address-1 {
-    font:18px 'LatoBold',sans-serif;
+    font: 18px 'LatoBold', sans-serif;
     margin-top: 18px;
     margin-bottom: 0;
 }
