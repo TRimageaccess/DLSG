@@ -21,7 +21,8 @@
               Scanner for Financial, Scanner for Transportation, ImageAccess Locations, ImageAccess site, Scanner for Manufacturing,
               Scanner for Distribution, Scanner for government, wide format scanner, library, librarians, bscan, widetek, software, bookeye, scanners, service,
               digitization, opus">
-        <meta name="author" content="DLSG">
+    <meta name="description" content="On this page you can easy contact us directly at phone  800.378.5432 or complete the form below and submit.">
+    <meta name="author" content="DLSG">
     <meta name="viewport" content="width=device-width">
     <title>Digital Library Systems Group</title>
     <link href="style/style.css" rel="stylesheet"/>
@@ -33,17 +34,17 @@
     <link href="style/smoothDivScroll.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Organization">
   <header id="header"></header>
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png" alt="DSLG and IA Logos">
-  <p class="support-address-1"> Digital Library Systems Group </p>
-  <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
-  <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
+  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png" itemprop="logo" alt="DSLG and IA Logos">
+  <p class="support-address-1" itemprop="brand"> Digital Library Systems Group </p>
+  <p class="support-address-2" itemprop="address"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
+  <p itemprop="telephone"> Telephone: (561) 886-2900 or (800) 378-5432 <br>
       Fax: (561) 431-2766<br>
-      Email: <a href="mailto:orders@dlsg.net">orders@dlsg.net</a>
+      Email: <a href="mailto:orders@dlsg.net" itemprop="email">orders@dlsg.net</a>
   </p>
   <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
@@ -142,6 +143,7 @@
 <script src="script/jquery.sortElements.js"></script>
 <script src="script/dlsg.js"></script>
 <script src="script/dlsg-form.js"></script>
-<script src="script/include.js" async></script>
+<script src="script/include.js"></script>
+<script src="script/analytics.js"></script>
 </body>
 </html>

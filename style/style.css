@@ -609,18 +609,16 @@ div.family-list-label {
 h2.family-list, h2.mint {
     right: 50%;
     padding: 0 10px;
-    font-size: 180%;
-    line-height: 120%;
+    font: 180%/120% 'LatoBold',sans-serif;
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
     background: #fff;
 }
 
 h3.family-list, h3.mint {
+    font: 150%/120% 'LatoBold',sans-serif;
     margin-left: -.1em;
     margin-right: 0.3em;
     margin-bottom: .5em;
-    font-size: 150%;
-    line-height: 120%;
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
@@ -3231,8 +3229,7 @@ span.mildHL {
 .customers_map-title,
 .validator-title {
     text-align: center;
-    font-size: 41px;
-    line-height: 43px;
+    font: 41px/43px 'LatoBold',sans-serif;
     padding: 20px;
 }
 

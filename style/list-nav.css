@@ -148,7 +148,7 @@
 
 .lower-nav p {
     color: #888;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
 }
 
 .lower-nav a {
@@ -170,3 +170,7 @@
     color: #eee!important;
     background-color: #aca!important;
 }
+
+@media all and (max-width:1200px) {}
+@media all and (max-width:992px) {}
+@media all and (max-width:768px) {}
