@@ -42,9 +42,8 @@ h1.block-tag {
 .brochure-block h2.block-title_h2-kic,
 .brochure-block h1.block-title {
     margin: 0 0 0.5em 0;
-    font-size: 300%;
+    font: 300%/1.2em 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 1.2em;
     color: #333;
     z-index: 10;
 }
@@ -436,12 +435,10 @@ div.dn_arrow {
 
 #K-05 h2.block-title,
 #K-05 h1.block-title {
-    margin: 0 0 0.5em 0;
-    margin-left: 200px;
+    margin: 0 0 0.5em 200px;
     text-align: left;
     width: 800px;
-    font-size: 300%;
-    line-height: 1.2em;
+    font: 300%/1.2em 'LatoBold',sans-serif;
     color: #333;
     z-index: 10;
 }
@@ -567,7 +564,7 @@ div.dn_arrow {
 }
 
 #k7-title2 {
-    font-family: 'LatoItalic', sans-serif;
+    font-family: 'LatoBoldItalic', sans-serif;
     margin-top: -20px;
 }
 
@@ -609,7 +606,7 @@ div.dn_arrow {
 
 #K-11 h2 {
     text-align: center;
-    font-family: 'LatoItalic', sans-serif;
+    font-family: 'LatoBoldItalic', sans-serif;
     margin-top: -15px;
     text-shadow: none;
 }
@@ -826,17 +823,15 @@ div.dn_arrow {
 #K-23 div.c01 h2.block-title.c01 {
     padding-top: 50px;
     margin-left: 200px;
-    font-size: 30px;
+    font: 30px/98% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 98%;
     color: #333;
 }
 
 #K-23 div.c01 h2.block-title.c02 {
     margin-left: 420px;
-    font-size: 30px;
+    font: 30px/98% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 98%;
     color: #333;
 }
 
@@ -6216,7 +6211,7 @@ div.dn_arrow {
     width: 130px;
 }
 #CCM-13 {position: relative; min-height: 1400px;height: 1400px;}
-#CCM-13 h2 {text-align: center;font-size: 70px;}
+#CCM-13 h2 {text-align: center;font: 70px 'LatoBold', sans-serif;}
 #CCM-13 span {text-align:center;display:block;color:#21abcc;font:42px 'LatoItalic', sans-serif;margin-top:-12px;padding-bottom:30px;}
 #CCM-13 p {font: 28px/33px 'Lato',sans-serif;width:88%;}
 #CCM-13 p:nth-of-type(1){padding-left:80px;width:86%;}
@@ -6224,7 +6219,7 @@ div.dn_arrow {
 #CCM-13 p:nth-of-type(3){position:absolute;top:620px;left: 520px;width: 49%;}
 #CCM-13 img:nth-of-type(2){padding:20px 0 0 80px;}
 #CCM-13 img:nth-of-type(1){position:absolute;bottom: 100px;right: 90px;}
-#CCM-13 h3{position: absolute;top:820px;left:525px;font-size:35px;}
+#CCM-13 h3{position: absolute;top:820px;left:525px;font:35px 'LatoBold', sans-serif;}
 #CCM-13 p:nth-of-type(4){position:absolute;top:880px;left:520px;width:34%;}
 #CCM-13 p:nth-of-type(5){position:absolute;bottom:90px;left:410px;width:37%;}
 #CCM-14 {position: relative; min-height: 1700px;height: 1700px;overflow:hidden;}

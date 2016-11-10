@@ -22,6 +22,10 @@
           Scanner for Financial, Scanner for Transportation, ImageAccess Locations, ImageAccess site, Scanner for Manufacturing,
           Scanner for Distribution, Scanner for government, wide format scanner, library, librarians, bscan, widetek, software, bookeye, scanners, service,
           digitization, opus">
+    <meta name="description"
+    content="On this page you can easy find  our  Support. Telephone: (561) 995-6939
+                                      Fax: (561) 431-2766
+                                      Email: support@dlsg.net">
     <meta name="author" content="DLSG">
     <title>Digital Library Systems Group</title>
     <link href="style/style.css" rel="stylesheet" type="text/css" />
