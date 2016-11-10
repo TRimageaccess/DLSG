@@ -33,17 +33,17 @@
     <link href="style/smoothDivScroll.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Organization">
   <header id="header"></header>
   <div class="viewport" id="contact_vp">
 
 <div class="support-address">
-  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png" alt="DSLG and IA Logos">
-  <p class="support-address-1"> Digital Library Systems Group </p>
-  <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
-  <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
+  <img width="300" height="80" src="http://upload.ted-kteam.com/DLSG/images/DSLG-and-IA-Logos.png" itemprop="logo" alt="DSLG and IA Logos">
+  <p class="support-address-1" itemprop="brand"> Digital Library Systems Group </p>
+  <p class="support-address-2" itemprop="address"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
+  <p itemprop="telephone"> Telephone: (561) 886-2900 or (800) 378-5432 <br>
       Fax: (561) 431-2766<br>
-      Email: <a href="mailto:orders@dlsg.net">orders@dlsg.net</a>
+      Email: <a href="mailto:orders@dlsg.net" itemprop="email">orders@dlsg.net</a>
   </p>
   <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
