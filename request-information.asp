@@ -297,6 +297,7 @@
 <script src="script/jquery.sortElements.js"></script>
 <script src="script/dlsg-form.js"></script>
 <script src="script/dlsg.js"></script>
-<script src="script/include.js" async></script>
+<script src="script/include.js"></script>
+<script src="script/analytics.js"></script>
 </body>
 </html>
