@@ -10,7 +10,6 @@
     color: #000;
 }
 
-
 .infoblock ul.blue-bullet li:before {
     content: '';
     position: absolute;
@@ -35,9 +34,7 @@
 
 .infoblock .h3_class_tittle {
     color: #000;
-    font-size: 24px;
-    line-height: 26px;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font:24px/26px 'LatoBold', sans-serif;
     display: block;
     clear: both;
     text-align: left;
@@ -53,36 +50,27 @@
 
 .infoblock .brochure-title-center {
     color: #000;
-    font-size: 36px;
-    line-height: 38px;
     text-align: center;
     padding: 20px 0 10px;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font: 36px/38px 'LatoBold', sans-serif;
 }
 
 .infoblock .title__subtitle {
-    font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 20px;
-    line-height: 22px;
+    font: 20px/22px 'LatoItalic', sans-serif;
     text-align: center;
-
     clear: both;
     display: block;
 }
 
 .infoblock__opus-freeflow-freedom {
     color: #2c89c6;
-    line-height: 38px;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    font-size: 36px;
+    font: 36px/38px 'LatoBold', sans-serif;
 }
 
 .infoblock_photos_documents {
-    font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
+    font: 24px/26px 'LatoBoldItalic', sans-serif;
     padding-bottom: 5px;
     display: block;
-    font-size: 24px;
-    line-height: 26px;
 }
 
 .infoblock_inscription {
@@ -133,11 +121,9 @@
 }
 
 .infoblock_curve_collection {
-    font-size: 24px;
-    line-height: 26px;
     text-align: center;
     color: #000;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font: 24px/26px 'LatoBold', sans-serif;
 }
 
 .infoblock .infoblock_do_before_2 {
@@ -404,9 +390,7 @@
 }
 
 .infoblock .brochure-title-center-free-flow {
-    font-family: 'LatoRegular', sans-serif, helvetica, arial;
-    font-size: 36px;
-    line-height: 38px;
+    font: 36px/38px 'LatoRegular', sans-serif;
     text-align: center;
     padding: 14px 0 10px;
 }
@@ -439,9 +423,7 @@
 }
 
 .infoblock .infoblock__opus-freeflow-photos {
-    font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 20px;
-    line-height: 22px;
+    font:20px/22px 'LatoItalic', sans-serif;
     color: #959595;
 }
 
@@ -490,9 +472,8 @@
 }
 
 .infoblock .infoblock__opus-freeflow-features-table-scanning th {
-    font-size: 20px;
     background: #449a5a;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font: 20px 'LatoBold', sans-serif;
     padding: 4px;
     color: white;
 }
@@ -519,9 +500,8 @@
 }
 
 .infoblock .infoblock__opus-freeflow-features-table-Image_Treatment th {
-    font-size: 20px;
     background: #449a5a;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font: 20px 'LatoBold', sans-serif;
     padding: 4px;
     color: white;
 }
@@ -544,20 +524,17 @@
 }
 
 .infoblock .infoblock__opus-freeflow-features-table-Collection th {
-    font-size: 20px;
     background: #449a5a;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font: 20px 'LatoBold', sans-serif;
     padding: 4px;
     color: white;
 }
 
 .infoblock .brochure-title-center-special {
     color: #000;
-    font-size: 36px;
-    line-height: 38px;
     text-align: center;
     padding-top: 20px;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font:36px/38px 'LatoBold', sans-serif;
 }
 
 .infoblock .infoblock__opus-freeflow-features-clear-fix {
