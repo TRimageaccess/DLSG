@@ -417,8 +417,7 @@
 
 .infoblock .infoblock__opus-freeflow-freedom2 {
     color: #959595;
-    line-height: 30px;
-    font-size: 28px;
+    font: 28px/30px 'LatoBold',sans-serif;
     display: block;
 }
 

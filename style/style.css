@@ -3229,8 +3229,7 @@ span.mildHL {
 .customers_map-title,
 .validator-title {
     text-align: center;
-    font-size: 41px;
-    line-height: 43px;
+    font: 41px/43px 'LatoBold',sans-serif;
     padding: 20px;
 }
 
