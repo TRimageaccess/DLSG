@@ -2790,8 +2790,7 @@ div.cycle div {
     right: 0;
     width: 285px;
     height: 330px;
-    padding: 10px;
-    padding-right: 0;
+    padding: 10px 0 10px 10px;
     z-index: 2;
     border: 1px solid #888;
     border-radius: 4px;
