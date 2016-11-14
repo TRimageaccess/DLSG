@@ -3372,3 +3372,7 @@ span.mildHL {
 .share_link--link {
     background: #1a85bc;
 }
+
+@media all and (max-width:1200px) {}
+@media all and (max-width:992px) {}
+@media all and (max-width:768px) {}
