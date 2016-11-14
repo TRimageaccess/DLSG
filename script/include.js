@@ -23,4 +23,17 @@ $(document).ready(function () {
 
     $("ul.tabs").tabs("div.panes > div");
 
+    var desc = $('meta[name=description]').attr('content');
+
+    $(".share").hideshare({
+        decription:'"' + desc + '"',
+        media:'http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png',
+        facebook: true,
+        twitter: false,
+        pinterest: false,
+        googleplus: true,
+        linkedin: true
+    });
+
+
 });
